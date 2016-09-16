@@ -1,11 +1,15 @@
 $(window).load(function() {
-  // Initialize the Material Bootstrap Design javascript:
-  $.material.init()
   // Initialize copy buttons:
   new Clipboard('.copy-this-label');
   // Initialize pop-overs & tooltips
   $('[data-toggle="popover"]').popover();
   $('[data-toggle="tooltip"]').tooltip();
+
+  anchors.options = {
+    placement: 'left',
+    visible: 'hover'
+  }
+  anchors.add("h2, h3");
 
   // Add active class to menu links when you are on the page:
   function stripTrailingSlash(str) {

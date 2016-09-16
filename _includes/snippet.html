@@ -1,0 +1,47 @@
+<div class="m-b-3 m-t-3">
+
+  {% if include.section %}
+    <h2 id="{{ include.section | slugify }}">{{ include.section }}</h2>
+  {% endif %}
+
+  {% if include.headline %}
+    <h3>{{ include.headline }}</h3>
+  {% endif %}
+
+  {% if include.description %}
+    <p>{{ include.description }}</p>
+  {% endif %}
+
+  {% if include.show-example %}
+    <div class="example m-b-3">
+      {{ include.code-snippet }}
+    </div>
+  {% endif %}
+
+
+  {% if include.show-code %}
+    <div class="m-b-3">
+      <div class="copy-this">
+        <div class="copy-this-label" data-clipboard-text='{{ include.code-snippet }}'>
+          Copy
+        </div>
+      </div>
+      {% if include.code-language == "markup" %}
+        {% highlight markup %}
+          {{ include.code-snippet }}
+        {% endhighlight %}
+      {% endif %}
+      {% if include.code-language == "css" %}
+        {% highlight css %}
+          {{ include.code-snippet }}
+        {% endhighlight %}
+      {% endif %}
+      {% if include.code-language == "javascript" %}
+        {% highlight javascript %}
+          {{ include.code-snippet }}
+        {% endhighlight %}
+      {% endif %}
+    </div>
+  {% endif %}
+  
+</div>

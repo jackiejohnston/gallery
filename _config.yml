@@ -6,16 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jackie Johnston
-email: your-email@domain.com
+title: Bricks
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Pennymac's UI Kit
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.jackiejohnston.us" # the base hostname & protocol for your site
 
 exclude: [
   'Gemfile',
@@ -26,9 +21,11 @@ exclude: [
 # Build settings
 markdown: kramdown
 
-
 gems:
   - jekyll-autoprefixer
+
+sass:
+  style: compressed
 
 # Set Jekyll's env to enable/disable Uglifier    
 env: 'production'    
@@ -37,13 +34,16 @@ stitch:
   dependencies: 
     - 'js/jquery.min.js'
     - 'js/bootstrap.min.js'
-    - 'js/material.min.js'
     - 'js/prism.min.js'
     - 'js/clipboard.js'
     - 'js/site.js'
     - 'js/anchor.min.js'
-  output: 'js/application.min.js'
+  output: 'js/main.min.js'
   fingerprint: false
   cleanup: true
   uglify: true
   uglify_options: {}
+
+collections:
+  snippets:
+    output: false
