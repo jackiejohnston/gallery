@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
+title: Jackie Johnston
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -17,5 +17,33 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'README.md'
+]
+
 # Build settings
 markdown: kramdown
+
+
+gems:
+  - jekyll-autoprefixer
+
+# Set Jekyll's env to enable/disable Uglifier    
+env: 'production'    
+
+stitch:
+  dependencies: 
+    - 'js/jquery.min.js'
+    - 'js/bootstrap.min.js'
+    - 'js/material.min.js'
+    - 'js/prism.min.js'
+    - 'js/clipboard.js'
+    - 'js/site.js'
+    - 'js/anchor.min.js'
+  output: 'js/application.min.js'
+  fingerprint: false
+  cleanup: true
+  uglify: true
+  uglify_options: {}
