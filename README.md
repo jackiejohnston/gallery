@@ -20,14 +20,14 @@ $  bundle install
 
 For development, run:
 ```
-$  JEKYLL_ENV=development jekyll liveserve
+$  jekyll liveserve
 ```
 
 then navigate to `http://localhost:4000/` in your browser.
 
 To create a build for production, run:
 ```
-$  JEKYLL_ENV=production jekyll build
+$  jekyll build
 ```
 Then upload the contents of the `_site` directory to your webhost.
 
