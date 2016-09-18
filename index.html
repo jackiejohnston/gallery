@@ -3,7 +3,7 @@
   <!-- Async loading of Google Fonts: -->
   <script type='text/javascript'>
     WebFontConfig = {
-      google: { families: [ "Roboto:100,300,400,500,700:latin"] }
+      google: { families: ["Roboto:100,300,400,500,700:latin","Kristi:400:latin"] }
     };
     (function() {
       var wf = document.createElement('script');
@@ -28,7 +28,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Jackie Johnston</title>
+<title>Jackie Johnston | Artwork</title>
 <meta name="description" content="Pennymac's UI Kit
 ">
   <link rel="stylesheet" href="/css/main.min.css">
@@ -36,12 +36,100 @@
 <link rel="alternate" type="application/rss+xml" title="Bricks" href="http://www.jackiejohnston.us/feed.xml">
   <body>
     <header>
+  <div class="container">
+    <h1 class="text-center">Jackie Johnston</h1>
+  </div>
 </header>
     <main class="container">
-      WIP
+      <div class="container">
+  <div class="gallery">
+    <img src="/images/Seventh-Wave.jpg" alt="Seventh Wave, acrylic on canvas, 14Hx18W. © Copyright 2016 by Jackie Johnston. All Rights Reserved." data-height="1559" data-width="2000">
+    <img src="/images/Big-Top-Swinger.jpg" alt="Big Top Swinger, acrylic on canvas, 18Hx24W. © Copyright 2016 by Jackie Johnston. All Rights Reserved." data-height="1455" data-width="2000">
+    <img src="/images/Eat-Your-Heart-Out.jpg" alt="Eat Your Heart Out, acrylic on canvas, 18Hx24W. © Copyright 2016 by Jackie Johnston. All Rights Reserved." data-height="1529" data-width="2000">
+    <img src="/images/Look-Both-Ways.jpg" alt="Look Both Ways, acrylic on canvas, 14Hx18W. © Copyright 2016 by Jackie Johnston. All Rights Reserved." data-height="1479" data-width="2000">
+    <img src="/images/Mearles-Drive-In.jpg" alt="Mearle's Drive In, acrylic on canvas, 20Hx16W. © Copyright 2015 by Jackie Johnston. All Rights Reserved." data-height="2000" data-width="1600">
+    <img src="/images/Grain-of-Sanderlings.jpg" alt="Grain of Sanderlings, acrylic on canvas, 24Hx48W. © Copyright 2015 by Jackie Johnston. All Rights Reserved." data-height="1000" data-width="2000">
+    <img src="/images/Ghost-Crab.jpg" alt="Ghost Crab, acrylic on canvas, 24Hx24W. © Copyright 2015 by Jackie Johnston. All Rights Reserved." data-height="2000" data-width="2000">
+    <img src="/images/Bucerias.jpg" alt="Bucerias, acrylic on canvas, 30Hx24W. © Copyright 2012 by Jackie Johnston. All Rights Reserved." data-height="1598" data-width="2000">
+    <img src="/images/Port-Angeles.jpg" alt="Port Angeles, acrylic on canvas, 36Hx24W. © Copyright 2012 by Jackie Johnston. All Rights Reserved." data-height="2000" data-width="1323">
+    <img src="/images/Beach-Walker.jpg" alt="Beach Walker, acrylic on canvas, 24Hx24W. © Copyright 2012 by Jackie Johnston. All Rights Reserved." data-height="2000" data-width="2000">
+    <img src="/images/Attempted-Murder-of-Crows.jpg" alt="Attempted Murder of Crows, acrylic on canvas, 40Hx30W. © Copyright 2012 by Jackie Johnston. All Rights Reserved." data-height="2000" data-width="1483">
+    <img src="/images/Stingray-City.jpg" alt="Stingray City, pastel on paper, 12Hx18W. © Copyright 2011 by Jackie Johnston. All Rights Reserved." data-height="1313" data-width="2000">
+    <img src="/images/Isla-Mujeras.jpg" alt="Isla Mujeres, pastel on paper, 12Hx18W. © Copyright 2011 by Jackie Johnston. All Rights Reserved." data-height="1311" data-width="2000">
+  </div>
+</div>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
     </main>
     <footer>
-    
-    <script src="/js/main.min.js"></script>
+      
+      <script src="/js/main.min.js"></script>
+    </footer>
   </body>
 </html>
