@@ -30,4 +30,36 @@ $(window).load(function() {
   });
 
 
+  // Build slideshow and open with image is clicked:
+  var openPhotoSwipe = function(imageIndex, images) {
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+
+    // build items array
+    var items = images;
+    
+    var options = {       
+        index: imageIndex,
+        galleryPIDs: true
+    };
+    
+    var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+    gallery.init();
+  };
+
+  $(".gallery img").click(function() {
+    var imageIndex = $(".gallery img").index(this);
+    var images = [];
+    $(".gallery img").each(function(i,ele) {
+      var image = {
+        src: $(this).attr("src"),
+        title: $(this).attr("alt"),
+        w: $(this).data("width"),
+        h: $(this).data("height"),
+        pid: $(this).attr("src").replace("/images/", "").replace(/\.[^.]*$/, "")
+      };
+      images.push(image);
+    });
+    openPhotoSwipe(imageIndex, images);
+  });
+  
 });

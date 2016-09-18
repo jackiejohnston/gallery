@@ -38,6 +38,8 @@ stitch:
     - 'js/clipboard.js'
     - 'js/site.js'
     - 'js/anchor.min.js'
+    - 'js/photoswipe.js'
+    - 'js/photoswipe-ui-default.js'
   output: 'js/main.min.js'
   fingerprint: false
   cleanup: true

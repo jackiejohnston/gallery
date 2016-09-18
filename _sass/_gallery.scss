@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Kristi', 'Roboto', sans-serif;
+}
+
+.gallery {
+  margin: 1.25em 0 1.25em 0;
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+@media only screen and (min-width: 500px) {
+  .gallery {
+    column-count: 3;
+  }
+}
+
+.gallery img { 
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 0 1.25em;
+  width: 100%;
+}
