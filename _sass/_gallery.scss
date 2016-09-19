@@ -1,9 +1,12 @@
-h1 {
+header h1 {
   font-family: 'Kristi', 'Roboto', sans-serif;
+  color: black;
+  font-size: 5em;
+  color: rgba(0,0,0,.75);
 }
-
+// http://tympanus.net/Development/GridLoadingEffects/index2.html
+// http://masonry.desandro.com/
 .gallery {
-  margin: 1.25em 0 1.25em 0;
   column-count: 2;
   column-gap: 1.25em;
 }

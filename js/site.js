@@ -51,7 +51,8 @@ $(window).load(function() {
     var images = [];
     $(".gallery img").each(function(i,ele) {
       var image = {
-        src: $(this).attr("src"),
+        src: $(this).attr("src").replace("-sm", ""),
+        msrc: $(this).attr("src"),
         title: $(this).attr("alt"),
         w: $(this).data("width"),
         h: $(this).data("height"),
