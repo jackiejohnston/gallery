@@ -56,11 +56,33 @@ $(window).load(function() {
         title: $(this).attr("alt"),
         w: $(this).data("width"),
         h: $(this).data("height"),
-        pid: $(this).attr("src").replace("/images/", "").replace(/\.[^.]*$/, "")
+        // pid: $(this).attr("src").replace("/images/", "").replace(/\.[^.]*$/, "")
       };
       images.push(image);
     });
     openPhotoSwipe(imageIndex, images);
+  });
+
+  $("#show-for-sale").click(function() {
+    $('.slide[data-available="false"]').addClass("hidden");
+    $(this).addClass("hidden");
+    $("#show-all").removeClass("hidden");
+  });
+
+  $("#show-all").click(function() {
+    $('.slide[data-available="false"]').removeClass("hidden");
+    $(this).addClass("hidden");
+    $("#show-for-sale").removeClass("hidden");
+  });
+
+  $("#show-more").click(function() {
+    $(this).addClass("hidden");
+    $("#show-less").removeClass("hidden");
+  });
+
+  $("#show-less").click(function() {
+    $(this).addClass("hidden");
+    $("#show-more").removeClass("hidden");
   });
   
 });

@@ -1,13 +1,35 @@
 body {
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header h1 {
-  font-family: 'Kristi', "Helvetica Neue", Helvetica, Arial, sans-serif;;
+header nav a {
   color: black;
-  font-size: 5em;
   color: rgba(0,0,0,.75);
+  text-decoration: none;
 }
+
+header nav a:hover {
+  color: #337ab7;
+  text-decoration: underline;
+}
+
+a:hover.no-underline  {
+  text-decoration: none !important;
+}
+
+header nav h1 {
+  font-family: 'Kristi', "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-size: 5em;
+}
+
+.flex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+
 // http://tympanus.net/Development/GridLoadingEffects/index2.html
 // http://masonry.desandro.com/
 .gallery {
