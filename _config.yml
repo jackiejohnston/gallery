@@ -34,18 +34,22 @@ stitch:
   dependencies: 
     - 'js/jquery.min.js'
     - 'js/bootstrap.min.js'
+    - 'js/site.js'
     - 'js/prism.min.js'
     - 'js/clipboard.js'
     - 'js/anchor.min.js'
-    # - 'masonry.pkgd.min.js'
-    # - 'js/photoswipe.js'
-    # - 'js/photoswipe-ui-default.js'
-    - 'js/site.js'
+    - 'js/modernizr.custom.js'
+    - 'js/masonry.pkgd.min.js'
+    - 'js/imagesloaded.js'
+    - 'js/classie.js'
+    - 'js/AnimOnScroll.js'
+    - 'js/photoswipe.js'
+    - 'js/photoswipe-ui-default.js'
   output: 'js/main.min.js'
   fingerprint: false
   cleanup: true
   uglify: true
-  uglify_options: {}
+  uglify_options: {}  
 
 collections:
   snippets:

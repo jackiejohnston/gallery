@@ -2,24 +2,23 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {% include header.html %}
+    <head>
+      {% include header.html %}
+    </head>
     <main class="container">
       {{ content }}
     </main>
     <footer>
       {% include footer.html %}
       {% include footer-script.html %}
-      <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
       <script>
+        new AnimOnScroll( document.getElementById( 'grid' ), {
+          minDuration : 0.4,
+          maxDuration : 0.7,
+          viewportFactor : 0.2
+        } );
+
         $(window).load(function() {
-          $('.grid').masonry({
-            percentPosition: true,
-            columnWidth: '.grid-sizer',
-            itemSelector: '.grid-item',
-            gutter: 15
-          });
           // Build slideshow and open with image is clicked:
           var openPhotoSwipe = function(imageIndex, images) {
             var pswpElement = document.querySelectorAll('.pswp')[0];
@@ -54,18 +53,6 @@
             });
             openPhotoSwipe(imageIndex, images);
           });
-
-          // $("#show-for-sale").click(function() {
-          //   $('.slide[data-available="false"]').addClass("hidden");
-          //   $(this).addClass("hidden");
-          //   $("#show-all").removeClass("hidden");
-          // });
-
-          // $("#show-all").click(function() {
-          //   $('.slide[data-available="false"]').removeClass("hidden");
-          //   $(this).addClass("hidden");
-          //   $("#show-for-sale").removeClass("hidden");
-          // });
         });
       </script>
     </footer>
