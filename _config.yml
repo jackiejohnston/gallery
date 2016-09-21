@@ -36,10 +36,11 @@ stitch:
     - 'js/bootstrap.min.js'
     - 'js/prism.min.js'
     - 'js/clipboard.js'
-    - 'js/site.js'
     - 'js/anchor.min.js'
-    - 'js/photoswipe.js'
-    - 'js/photoswipe-ui-default.js'
+    # - 'masonry.pkgd.min.js'
+    # - 'js/photoswipe.js'
+    # - 'js/photoswipe-ui-default.js'
+    - 'js/site.js'
   output: 'js/main.min.js'
   fingerprint: false
   cleanup: true

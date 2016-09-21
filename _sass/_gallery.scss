@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -30,23 +32,32 @@ header nav h1 {
   align-content: flex-start;
 }
 
-// http://tympanus.net/Development/GridLoadingEffects/index2.html
-// http://masonry.desandro.com/
-.gallery {
-  column-count: 2;
-  column-gap: 1.25em;
+
+.grid {
+  margin: 0 auto;
+}
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
-@media only screen and (min-width: 500px) {
-  .gallery {
-    column-count: 3;
-  }
+.grid-sizer,
+.grid-item { width: 100%; }
+
+@media only screen and (min-width: 375px) {
+  .grid-sizer,
+  .grid-item { width: calc(50% - 8px); }
 }
 
-.gallery .tile { 
-  display: inline-block;
-  margin: 0 0 1.25em;
-  width: 100%;
+@media only screen and (min-width: 768px) {
+  .grid-sizer,
+  .grid-item { width: calc(33.333% - 10px); }
+}
+
+.grid-item {
+  margin-bottom: 15px;
 }
 
 .slide {
