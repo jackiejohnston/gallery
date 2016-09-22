@@ -35,3 +35,31 @@ header nav h1 {
 .slide {
   cursor: pointer;  
 }
+
+.gallery li span {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  // background-color: rgba(0,0,0,.25);
+  padding: 5px;
+  padding-left: 7px;
+  white-space: nowrap;
+  i {
+    padding: 5px;
+  }
+  a {
+    display: inline-block;
+    color: white;
+  }
+  a:hover {
+    color: white;
+  }
+  a.text-alert {
+    color: red !important;
+  }
+}
+
+.tooltip {
+  width: 250px;
+  z-index: 100;
+}
