@@ -2,20 +2,32 @@
 <html lang="en">
   <head>
     <!-- Async loading of Google Fonts: -->
-  <script type='text/javascript'>
-    WebFontConfig = {
-      google: { families: ["Raleway:400:latin","Kristi:400:latin"] }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
+<script type='text/javascript'>
+  WebFontConfig = {
+    google: { families: ["Kristi:400:latin", "Raleway:400:latin"] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
 <!-- end Google Fonts -->
+<style>
+  .wf-loading * { 
+    opacity: 0;
+  }
+  .wf-active *, 
+  .wf-inactive * {
+    -webkit-transition: opacity 1s ease-out;  
+    -moz-transition: opacity 1s ease-out; 
+    -o-transition: opacity 1s ease-out;  
+    transition: opacity 1s ease-out;  
+  }
+</style>
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 <script src="https://use.fontawesome.com/facee44909.js"></script>
 
@@ -36,17 +48,39 @@
 <link rel="stylesheet" href="/css/main.min.css">
 <link rel="canonical" href="http://www.jackiejohnston.us/code/">
 <link rel="alternate" type="application/rss+xml" title="Jackie Johnston" href="http://www.jackiejohnston.us/feed.xml">
+
+<!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Getting Started - Jackie Johnston</title>
+<meta property="og:title" content="Getting Started" />
+<meta name="description" content="Jackie Johnston’s portfolio website, showcasing her art, photography and coding work." />
+<meta property="og:description" content="Jackie Johnston’s portfolio website, showcasing her art, photography and coding work." />
+<link rel="canonical" href="http://www.jackiejohnston.us/code/" />
+<meta property="og:url" content="http://www.jackiejohnston.us/code/" />
+<meta property="og:site_name" content="Jackie Johnston" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@heartsbeach" />
+<meta name="twitter:creator" content="@Jackie Johnston" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "headline": "Getting Started",
+    "description": "Jackie Johnston’s portfolio website, showcasing her art, photography and coding work.",
+    "url": "http://www.jackiejohnston.us/code/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
   </head>
   <body>
     <header>
   <nav class="container flex-header">
     <a href="/art"><h4>Art</h4></a>
-    <a href="/photography"><h4>Photography</h4></a>
-    <a href="/" class="no-underline">
+    <a href=""><h4>Photography</h4></a>
+    <a href="" class="no-underline">
       <h1 class="flex-header-item">Jackie Johnston</h1>
     </a>
-    <a href="/coding"><h4>Coding</h4></a>
-    <a href="/contact"><h4>Contact</h4></a>
+    <a href=""><h4>Code</h4></a>
+    <a href=""><h4>Contact</h4></a>
     <a href="http://www.linkedin.com/in/jacquelinejohnston" class="no-underline">
       <h4><i class="fa fa-linkedin-square" aria-hidden="true"></i></h4>
     </a>
@@ -115,7 +149,11 @@
 </main>
     </main>
     <footer>
-      
+      <div class="text-center m-b-2 m-t-3">
+  <p>
+    Copyright &#169; <span class="current-year"></span> Jackie Johnston. All Rights Reserved.
+  </p>
+</div>
       <script src="/js/main.min.js"></script>
     </footer>
   </body>
