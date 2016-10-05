@@ -1,8 +1,54 @@
+$default-bkg: #f2f2f2;
+$info-bkg: #e9f9fb;
+$default-text-color: #212121;
+$default-link-color: #0097A7;
+$default-link-hover-color: #005c66;
+$warning-bkg: #ff6333;
+$warning-bkg-hover: #ff3c00;
+$secondary-text: #8c8c8c;
+
 *, *:after, *:before { box-sizing: border-box; }
 
 body {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: $default-bkg;
+  color: $default-text-color;
+}
+
+a {
+  color: $default-link-color;
+}
+
+a:hover {
+  color: $default-link-hover-color;
+}
+
+.alert-info {
+  background-color: $info-bkg;
+  border: none;
+  color: $default-text-color;
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.btn-warning {
+  background-color: $warning-bkg;
+  border-color: $warning-bkg;
+}
+
+.btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning:visited {
+    background-color: $warning-bkg-hover;
+    border-color: $warning-bkg-hover;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.text-muted {
+  color: $secondary-text;
 }
 
 header {
@@ -11,13 +57,12 @@ header {
 }
 
 header nav a {
-  color: black;
-  color: rgba(0,0,0,.75);
+  color: $default-text-color;
   text-decoration: none;
 }
 
 header nav a:hover {
-  color: #337ab7;
+  color: $default-link-hover-color;
   text-decoration: underline;
 }
 
@@ -30,12 +75,39 @@ header nav h1 {
   font-size: 5em;
 }
 
-.flex-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  align-content: flex-start;
+@media screen and (max-width: 699px) {
+  .flex-header {
+    text-align: center;
+  }
+  .flex-header > a {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .flex-header > a:nth-of-type(1) {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .flex-header > a {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .flex-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+  }
+  .flex-header > a:nth-of-type(1) { order: 3; }
+  .flex-header > a:nth-of-type(2) { order: 1; }
+  .flex-header > a:nth-of-type(3) { order: 2; }
+  .flex-header > a:nth-of-type(4) { order: 4; }
+  .flex-header > a:nth-of-type(5) { order: 5; }
+  .flex-header > a:nth-of-type(6) { order: 6; }
 }
 
 .slide {
