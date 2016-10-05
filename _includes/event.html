@@ -1,0 +1,33 @@
+<div>
+  <h5>
+    {{ include.title }}
+  </h5>
+  <p>
+    <small class="text-muted">
+      {{ include.description }}<br>
+      {{ include.date-description }}<br>
+      <a href="{{ include.location-website}}" target="_blank">
+        {{ include.location-name }}
+      </a><br>
+      <a href="{{ include.location-map-url }}" target="_blank">
+        {{ include.location-address }}
+      </a>
+    </small>
+    <div>
+      <span class="addtocalendar atc-style-icon atc-style-menu-wb">
+        <a class="atcb-link button btn btn-primary btn-xs">
+          <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+          &nbsp; Add to Calendar
+        </a>
+        <var class="atc_event">
+          <var class="atc_date_start">{{ include.start-datetime }}</var>
+          <var class="atc_date_end">{{ include.end-datetime }}</var>
+          <var class="atc_timezone">{{ include.timezone }}</var>
+          <var class="atc_title">{{ include.title }}</var>
+          <var class="atc_description">{{ include.description }}</var>
+          <var class="atc_location">{{ include.location-name }}, {{ include.location-address | replace: '"', '' }}</var>
+        </var>
+      </span>
+    </div>
+  </p>
+</div>

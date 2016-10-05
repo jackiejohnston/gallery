@@ -1,0 +1,20 @@
+<div class="row">
+  {% for event in site.data.events %}
+    <div class="col-xs-12 col-sm-6 m-b-3">
+      <p>
+        {% include event.html 
+          title=event.title
+          description=event.description
+          location-name=event.location-name
+          location-website=event.location-website
+          location-address=event.location-address
+          location-map-url=event.location-map-url
+          timezone=event.timezone
+          start-datetime=event.start-datetime
+          end-datetime=event.end-datetime
+          date-description=event.date-description
+        %}
+      </p>
+    </div>
+  {% endfor %}
+</div>

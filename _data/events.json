@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Passion! Exhibit",
+    "description": "Women's City Club of Pasadena Exhibit",
+    "location-name": "Blinn House",
+    "location-website": "https://www.facebook.com/Womens-City-Club-of-Pasadena-229945003682467/about/?section=hours&tab=page_info",
+    "location-address": "160 N Oakland Ave, Pasadena, CA 91101",
+    "location-map-url": "https://goo.gl/maps/pt5pXSk9A932",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2016-09-09 09:00:00",
+    "end-datetime": "2016-12-2 19:00:00",
+    "date-description": "Sept. 9 - Dec. 2, 2016"
+  },
+  {
+    "title": "Passion! Artist Reception and Art Night",
+    "description": "Women's City Club of Pasadena Exhibit",
+    "location-name": "Blinn House",
+    "location-website": "https://www.facebook.com/Womens-City-Club-of-Pasadena-229945003682467/about/?section=hours&tab=page_info",
+    "location-address": "160 N Oakland Ave, Pasadena, CA 91101",
+    "location-map-url": "https://goo.gl/maps/pt5pXSk9A932",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2016-10-21 18:00:00",
+    "end-datetime": "2016-10-21 22:00:00",
+    "date-description": "Friday, October 21, 2016, 6-10pm"
+  },
+  {
+    "title": "Spirits of the Night Exhibit",
+    "description": "California Art League's 2016 Gold Medal Exhibit",
+    "location-name": "San Fernando Valley Arts & Cultural Center",
+    "location-website": "http://www.sfvacc.org/",
+    "location-address": "18312 Oxnard St, Tarzana, CA 91356",
+    "location-map-url": "https://goo.gl/maps/FRrFRjvfJ752",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2016-10-24 11:00:00",
+    "end-datetime": "2016-11-12 17:00:00",
+    "date-description": "Oct. 24 - Nov. 12, 2016, Tu-Sat 11am-5pm"
+  },
+  {
+    "title": "Spirits of the Night Artist Reception",
+    "description": "California Art League's 2016 Gold Medal Exhibit",
+    "location-name": "San Fernando Valley Arts & Cultural Center",
+    "location-website": "http://www.sfvacc.org/",
+    "location-address": "18312 Oxnard St, Tarzana, CA 91356",
+    "location-map-url": "https://goo.gl/maps/FRrFRjvfJ752",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2016-10-29 15:00:00",
+    "end-datetime": "2016-10-29 17:00:00",
+    "date-description": "Saturday, October 29, 2016, 3-5pm"
+  },
+]

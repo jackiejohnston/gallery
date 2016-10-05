@@ -1,30 +1,74 @@
 ---
 layout: slideshow
 title: Jackie Johnston | Artwork
+description:
+image:
+author:
 ---
+<div class="alert alert-info" role="alert">
+  <div class="text-center">
+    <!-- Begin MailChimp Signup Form -->
+      <form class="form-inline" action="//gallery.us13.list-manage.com/subscribe/post?u=3334cae416fd4b40528fafca5&amp;id=bbebdc0a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <strong>Sign-up</strong> to be notified when new artworks or gallery events are added.
+        <div class="form-group p-l-2">
+          <input type="email" class="form-control" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+        </div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-default">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3334cae416fd4b40528fafca5_bbebdc0a0f" tabindex="-1" value=""></div>
+      </form>
+    <!--End mc_embed_signup-->
+  </div>
+</div>
 
-<ul class="gallery grid effect-2" id="grid">
-  <li>
-    <div>
-      <p class="m-b-0 p-a-1">
-        I&#39;ve always loved art. Some of my favorite college classes were art history. My walls at home are overflowing with artwork. And I love spending time looking at art in galleries, museums and books. Oddly, I spent most of my life thinking I was not able to draw or paint beyond the stick-figure or finger-painting level. Still for some reason, during the summer of 2011, I bought a set of pastels and started playing with them. Encouraged by my results, I took a painting class at my local community college that Fall. Since then, painting has become a pursuit that I really enjoy, even though I have way too little time for it. I mostly use my own photographs for inspiration. And it is my love of animals and the ocean that often inspires my choice of subject matter. Currently, I am taking a plein air class through the <a href="https://www.artcenter.edu/acn/" class="inline" target="_blank">Art Center</a>, and I am trying to love oil paints as much as I do acrylic.
-      </p>
-    </div>
-  </li>
-  {% for piece in site.data.artworks %}
-    <li>
-      <div>
-        <img class="slide" src="/images/{{ piece.title | url_encode | replace: '+', '-' | replace: '%27', '' }}-sm.jpg" alt="{{ piece.title }}, {{ piece.original }} {{ piece.medium }} {{ piece.category }}, {{ piece.height }}Hx{{ piece.width }}W. © Copyright {{ piece.year }} by Jackie Johnston. All Rights Reserved." data-height="{{ piece.imgHeight }}" data-width="{{ piece.imgWidth }}" data-available="{{ piece.available }}">
-        <h5 class="text-center">
-          <em>{{ piece.title }}</em><br>
-          <small>
-            {{ piece.original | capitalize }} {{ piece.medium }} {{ piece.category }}<br>
-            {{ piece.height }}" H x {{ piece.width }}" W<br>
-            {{ piece.year }}
-          </small>
-        </h5>
-        <p><small class="text-muted text-left">{{ piece.notes }}</small></p>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-1">
+        <h3 class="text-center">Artist Statement</h3>
+        <hr>
+        <p>
+          I&#39;ve always loved art. Some of my favorite college classes were art history. My walls at home are overflowing with artwork. And I love spending time looking at art in galleries, museums and books. Oddly, I spent most of my life thinking I was not able to draw or paint beyond the stick-figure or finger-painting level. Still for some reason, during the summer of 2011, I bought a set of pastels and started playing with them. Encouraged by my results, I took a painting class at my local community college that Fall. Since then, painting has become a pursuit that I really enjoy, even though I have way too little time for it. I mostly use my own photographs for inspiration. And it is my love of animals and the ocean that often inspires my choice of subject matter. Currently, I am taking a plein air class, and I am trying to love oil paints as much as I do acrylic. <a href="/art/cv">See my CV.</a>
+        </p>
       </div>
-    </li>
-  {% endfor %}
-</ul>
+      <div class="col-md-6 col-md-offset-1">
+        <h3 class="text-center">Gallery Events</h3>
+        <hr>
+        {% include events.html %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="text-center">Artworks</h3>
+        <hr>
+        <ul class="gallery grid effect-2" id="grid">
+          {% for piece in site.data.artworks %}
+            <li>
+              <div>
+                <img class="slide" src="/images/{{ piece.title | url_encode | replace: '+', '-' | replace: '%27', '' }}-sm.jpg" alt="{{ piece.title }}, {{ piece.original }} {{ piece.medium }} {{ piece.category }}, {{ piece.height }}Hx{{ piece.width }}W. Copyright &#169; {{ piece.year }} Jackie Johnston. All Rights Reserved." data-height="{{ piece.imgHeight }}" data-width="{{ piece.imgWidth }}" data-available="{{ piece.available }}">
+                <h5 class="text-center">
+                  <em>{{ piece.title }}</em><br>
+                  <small>
+                    {{ piece.original | capitalize }} {{ piece.medium }} {{ piece.category }}<br>
+                    {{ piece.height }}" H x {{ piece.width }}" W<br>
+                    {{ piece.year }}
+                  </small>
+                </h5>
+                <p><small class="text-muted text-left">{{ piece.notes }}</small></p>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+  </head>
   <body>
-    <head>
-      {% include header.html %}
-    </head>
-    <main class="container">
+  <script type="text/javascript">(function () {
+    if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+    if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+      var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+      s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+      s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+      var h = d[g]('body')[0];h.appendChild(s); }})();
+    </script>
+    {% include header.html %}
+
+    <main>
       {{ content }}
     </main>
     <footer>

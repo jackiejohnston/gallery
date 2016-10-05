@@ -6,4 +6,5 @@
    gem 'uglifier'
    gem 'hawkins'
    gem 'jekyll-autoprefixer'
+   gem 'jekyll-seo-tag'
  end

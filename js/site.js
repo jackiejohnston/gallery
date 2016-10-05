@@ -28,5 +28,8 @@ $(window).load(function() {
       }
     }
   });
+  var dateNow = new Date();
+  var yearNow = dateNow.getFullYear();
+  $(".current-year").text(yearNow);
   
 });
