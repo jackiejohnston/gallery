@@ -19,10 +19,10 @@ $(window).load(function() {
     return str;
   }
   var locationPage = stripTrailingSlash(window.location.pathname);
-  $.each($('header .nav').find('li'), function() {
+  $.each($('header nav').find('a'), function() {
     if ($(this).find('a')) {   
       var parser = document.createElement('a');
-      parser.href = $(this).find('a').attr('href');
+      parser.href = $(this).attr('href');
       if (stripTrailingSlash(parser.pathname) === locationPage) {
         $(this).addClass('active');
       }

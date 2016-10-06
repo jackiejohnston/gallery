@@ -19,8 +19,13 @@ a {
   color: $default-link-color;
 }
 
-a:hover {
+a:hover, a.active {
   color: $default-link-hover-color;
+  text-decoration: underline;
+}
+
+a.no-underline {
+  text-decoration: none;
 }
 
 .alert-info {
@@ -81,7 +86,7 @@ header nav h1 {
   }
   .flex-header > a {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 5px;
   }
   .flex-header > a:nth-of-type(1) {
     display: block;
@@ -91,6 +96,9 @@ header nav h1 {
 @media screen and (max-width: 451px) {
   .flex-header > a {
     display: block;
+  }
+  .flex-header-social {
+    display: inline-block !important;
   }
 }
 
@@ -102,12 +110,15 @@ header nav h1 {
     align-items: center;
     align-content: flex-start;
   }
-  .flex-header > a:nth-of-type(1) { order: 3; }
+  .flex-header > a:nth-of-type(1) { order: 4; }
   .flex-header > a:nth-of-type(2) { order: 1; }
   .flex-header > a:nth-of-type(3) { order: 2; }
-  .flex-header > a:nth-of-type(4) { order: 4; }
+  .flex-header > a:nth-of-type(4) { order: 3; }
   .flex-header > a:nth-of-type(5) { order: 5; }
   .flex-header > a:nth-of-type(6) { order: 6; }
+  .flex-header > a:nth-of-type(7) { order: 7; }
+  .flex-header > a:nth-of-type(8) { order: 8; }
+  .flex-header > a:nth-of-type(9) { order: 9; }
 }
 
 .slide {
@@ -163,3 +174,5 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+.tel {white-space: nowrap; display: inline !important;}
