@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+
+body {
+  color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .01);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom:  50px;
+}
+
+#right-col {
+  margin-top: -20px;
+  margin-bottom: 45px;
+}
+
+#hr {
+  border-top: 1px dotted rgba(0, 0, 0, .1);
+  margin-bottom: 15px;
+}
+
+#resume {
+  background-color: rgba(0, 0, 0, .1);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  height: 14px;
+}
+
+#title { 
+  color: rgba(0, 0, 0, .2);
+  background-color: white;
+  padding-left: 6px;
+  padding-right: 1px;
+  font-weight: 800;
+  letter-spacing: .3em;
+  font-size: 16px;
+  position: relative;
+  top: -3px;
+}
+
+i {
+  margin-left: 5px;
+}
+
+h1 {
+  font-weight: 800;
+  margin-bottom: 0;
+  letter-spacing: .3em;
+  font-size: 3.5em;
+}
+
+h2 { 
+  font-family: 'Raleway Dots', cursive;
+  margin-top: 0;
+  margin-bottom: 25px;
+  letter-spacing: .105em;
+}
+
+h3 {
+  font-weight: 700;
+  border-bottom: 1px dotted rgba(0, 0, 0, .1);
+  padding-bottom: 3px;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 500;
+  margin-top: -8px;
+  margin-bottom: 3px;
+}
+
+hgroup {
+  margin-top: 15px;
+}
+
+small {
+  margin-top: 4px;
+}
+
+dt {
+  font-weight: 500;
+}
+
+dd {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.fa-bookmark {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.fa-ellipsis-h {
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+
+.tel, .pull-right {
+  white-space: nowrap; 
+} 
+
+@media (min-width: 992px) {
+  aside > section {
+    text-align: right;
+    background-color: rgba(0, 0, 0, .05);
+    padding: 15px !important;
+  }
+}
