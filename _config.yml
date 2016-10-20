@@ -10,8 +10,8 @@ title: Jackie Johnston
 description: > # this means to ignore newlines until "baseurl:"
   Jackie Johnston's portfolio website, showcasing her art, photography and coding work.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.jackiejohnston.us" # the base hostname & protocol for your site
-author: Jackie Johnston
+url: "https://www.jackiejohnston.us" # the base hostname & protocol for your site
+enforce_ssl: "www.jackiejohnston.us"
 twitter: 
   username: heartsbeach
 
