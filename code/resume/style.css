@@ -8,6 +8,14 @@ body {
   font-weight: 300;
 }
 
+a {
+  color: #0097A7;
+}
+
+a:hover, a:active, a:focus, a:visited {
+  color: #005c66;
+}
+
 .container {
   margin-top: 40px;
   margin-bottom:  50px;
