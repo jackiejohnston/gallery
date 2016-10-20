@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Test</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Test</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      $(window).load(function() {
+        $.ajax({
+          url: "https://oauth.wildapricot.org/auth/token",
+          type: "POST",
+          xhrFields: { withCredentials: true },
+          beforeSend: function (xhr) { 
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+            xhr.setRequestHeader("Authorization", "Basic " + btoa("APIKEY:20kl00o9vn1c6xtbs2rhgmbo6rc3bg"));             
+          },
+          data: {
+            grant_type: "client_credentials",
+            scope: "events_view contacts_view"
+          },
+          success: function(data, status, xhr) {
+            console.log("data: " + data);
+          },
+          error: function(xhr, status, error) {
+            console.log("status: " + status);
+          },
+          complete: function() {
+            console.log("complete");
+          }
+        });
+
+
+      });
+    </script>
+  </body>
+</html>
