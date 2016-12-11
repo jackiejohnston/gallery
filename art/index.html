@@ -2,7 +2,7 @@
 layout: slideshow
 title: Artwork
 description: View a slideshow of Jackie Johnston's acrylic, oil, pastel and watercolor paintings.
-image: /images/Ghost-Crab-sm.jpg
+image: /images/photos/animals07.jpg
 ---
 <div class="hero hero-art hidden-xs hidden-sm">
   <h2 class="hero-header">Artist</h2>
@@ -56,7 +56,7 @@ image: /images/Ghost-Crab-sm.jpg
           {% for piece in site.data.artworks %}
             <li>
               <div>
-                <img class="slide" src="/images/{{ piece.title | url_encode | replace: '+', '-' | replace: '%27', '' }}-sm.jpg" alt="{{ piece.title }}, {{ piece.original }} {{ piece.medium }} {{ piece.category }}, {{ piece.height }}Hx{{ piece.width }}W. Copyright &#169; {{ piece.year }} Jackie Johnston. All Rights Reserved." data-height="{{ piece.imgHeight }}" data-width="{{ piece.imgWidth }}" data-available="{{ piece.available }}">
+                <img class="slide" src="/images/artwork/{{ piece.title | url_encode | replace: '+', '-' | replace: '%27', '' }}-sm.jpg" alt="{{ piece.title }}, {{ piece.original }} {{ piece.medium }} {{ piece.category }}, {{ piece.height }}Hx{{ piece.width }}W. Copyright &#169; {{ piece.year }} Jackie Johnston. All Rights Reserved." data-height="{{ piece.imgHeight }}" data-width="{{ piece.imgWidth }}" data-available="{{ piece.available }}">
                 <h5 class="text-center">
                   <em>{{ piece.title }}</em><br>
                   <small>

@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: slideshow
 title: Photographer
 description: Discover more about Jackie Johnston's work as a photographer.
 image: /images/ruby-on-rails.jpg
 ---
-<div class="hero hero-code">
+<div class="hero hero-photo">
   <h2 class="hero-header">Photographer</h2>
 </div>
 <div class="container-fluid white-bg p-t-3 p-b-3">
@@ -39,13 +39,24 @@ image: /images/ruby-on-rails.jpg
         <p>In 2013, I started down a new career path in <a href="/code">web developing</a>, and now photography is back to being a hobby for me.</p>
       </div>
     </div>
-    <div class="row m-t-2">
+  </div>
+</div>
+
+<div class="container-fluid p-t-3 p-b-3">
+  <div class="container">
+    <div class="row">
       <div class="col-xs-12">
         <h3 class="text-center">Photographs</h3>
         <hr>
-      </div>
-      <div class="col-md-6">
-
+        <ul class="gallery grid effect-2" id="grid">
+          {% for piece in site.data.photos %}
+            <li>
+              <div>
+                <img class="slide" src="/images/photos/{{ piece.file }}" alt="Copyright &#169; {{ piece.year }} Jackie Johnston. All Rights Reserved." data-height="{{ piece.imgHeight }}" data-width="{{ piece.imgWidth }}">
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

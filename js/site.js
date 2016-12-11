@@ -10,6 +10,7 @@ $(window).load(function() {
     visible: 'hover'
   }
   anchors.add("h2, h3");
+  anchors.remove('.no-anchor');
 
   // Add active class to menu links when you are on the page:
   function stripTrailingSlash(str) {
