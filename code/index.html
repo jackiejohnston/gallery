@@ -7,22 +7,7 @@
       window.location.protocol = "https";
 </script>
 
-<!-- Async loading of Google Fonts: -->
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-<script type='text/javascript'>
-  WebFontConfig = {
-    google: { families: ["Kristi:400:latin", "Raleway:400,900:latin"] }
-  };
-  (function() {
-    var wf = document.createElement('script');
-    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-    wf.type = 'text/javascript';
-    wf.async = 'true';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(wf, s);
-  })();
-</script>
-<!-- end Google Fonts -->
+<!-- Loading of Google Fonts: -->
 <style>
   .wf-loading * { 
     opacity: 0;
@@ -35,6 +20,16 @@
     transition: opacity 1s ease-out;  
   }
 </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ["Kristi:400:latin", "Raleway:400,900:latin"]
+    }
+  });
+</script>
+<!-- end Google Fonts -->
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 <script src="https://use.fontawesome.com/facee44909.js"></script>
 
@@ -83,8 +78,8 @@
       <h1>Jackie Johnston</h1>
     </a>
     <a href="/art"><h4>Art</h4></a>
-    <a href="/photography"><h4>Photography</h4></a>
     <a href="/code"><h4>Code</h4></a>
+    <a href="/photography"><h4>Photography</h4></a>
     <a href="/contact"><h4>Contact</h4></a>
     <a href="https://twitter.com/heartsbeach" class="no-underline flex-header-social">
       <i class="fa fa-twitter-square fa-lg"></i>
