@@ -21,7 +21,7 @@ title: Jackie Johnston | Artist CV
     <ul class="list-unstyled year-list">
       {% for exhibit in site.data.exhibits %}
         <li>
-          <span class="cv-year">{{ exhibit.year }}</span><em><strong>{{ exhibit.title }}</strong></em>{% if exhibit.description %}{{ exhibit.description | prepend: ': ' }}{% endif %}{% if exhibit.other-artists %}{{ exhibit.other-artists | prepend: ' with ' }}{% endif %}. {% if exhibit.juror-curator %}{{ exhibit.selection-process | capitalize }}{{ exhibit.juror-curator | prepend: ' by ' | append: ', ' }}{% endif %}{{ exhibit.gallery }}{% if exhibit.city %}{{ exhibit.city | prepend: ', ' }}{% endif %}{% if exhibit.state %}{{ exhibit.state | prepend: ', ' }}{% endif %}{{ exhibit.category | prepend: ' (' | append: '.)' }}{% if exhibit.award %}{{ exhibit.award | prepend: ' Won ' | append: ' for '}}<em>{{ exhibit.award-for }}</em>.{% endif %}
+          <span class="cv-year">{{ exhibit.year }}</span><em><strong>{{ exhibit.title }}</strong></em>&nbsp;{% if exhibit.description %}{{ exhibit.description | prepend: ': ' }}{% endif %}{% if exhibit.other-artists %}{{ exhibit.other-artists | prepend: ' with ' }}. {% endif %}{% if exhibit.juror-curator %}{{ exhibit.selection-process | capitalize }}{{ exhibit.juror-curator | prepend: ' by ' | append: ', ' }}{% endif %}{{ exhibit.gallery }}{% if exhibit.city %}{{ exhibit.city | prepend: ', ' }}{% endif %}{% if exhibit.state %}{{ exhibit.state | prepend: ', ' }}{% endif %}{{ exhibit.category | prepend: ' (' | append: '.)' }}{% if exhibit.award %}{{ exhibit.award | prepend: ' Won ' | append: ' for '}}<em>{{ exhibit.award-for }}</em>.{% endif %}
         </li>
       {% endfor %}
     </ul>
