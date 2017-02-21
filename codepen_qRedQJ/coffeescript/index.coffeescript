@@ -1,0 +1,116 @@
+class WeatherView extends Backbone.View
+	template: Handlebars.compile($("#home-template").html())
+	weather:
+		apiKey: "15b63a28fedd5d6f7e4d6d6267458e33"
+		geolocationSupport: true
+		location: ""
+		description: ""
+		metric: false
+		temp: ""
+		icon: ""
+		minTemp: ""
+		maxTemp: ""
+		code: ""
+		timeOfDay: ""
+		time: ""
+		hidden: false
+	
+	events: 
+		"click #units": "switchUnits"
+		
+	initialize: ->
+		setInterval (=>
+  		@getTime()
+		), 1000
+		setInterval (=>
+  		@getParams()
+		), 300000
+		@getParams()
+		@render()
+		
+	render: ->
+		@$el.html(@template(@weather))
+
+	getTime: ->
+		now = new Date
+		time = now.toLocaleTimeString()
+		@weather.time = time
+		@render()
+		
+	switchUnits: ->
+		@weather.metric = if @weather.metric then false else true	
+		@weather.hidden = true
+		@getParams()
+		
+	getBackground: (id)->
+		windowWidth = window.innerWidth
+		windowHeight = window.innerHeight
+		imageURL = "url('source.unsplash.com/#{id}/#{windowWidth}x#{windowHeight}') no-repeat center center fixed"
+		$('body').css 'background', imageURL
+		@render()		
+	
+	getParams: ->
+		query = window.location.search.substring(1).toLowerCase()
+		raw_vars = query.split("&")
+		params = {}
+		for pair in raw_vars
+			[key, value] = pair.split("=")
+			params[key] = decodeURIComponent(value)
+		@weather.apiKey = params.appid
+		@getGeoLocation() if @weather.apiKey
+		
+	getGeoLocation: ->
+		if navigator.geolocation
+			navigator.geolocation.getCurrentPosition (position) =>
+				@getWeather(position.coords.latitude, @weather.longitude = position.coords.longitude)
+		else
+			@weather.geolocationSupport = false	
+			
+	getWeatherPic: ->
+		code = parseInt(@weather.code)
+		switch
+			when code in [200..232] and @weather.timeOfDay == 'd' then @getBackground('LYq7W1lRal4') #day thunderstorm
+			when code in [200..232] and @weather.timeOfDay == 'n' then @getBackground('gm8z8B_Z-vQ') #night thunderstorm
+			when code in [300..531] and @weather.timeOfDay == 'd' then @getBackground('_87lZuOyg64') #day rain
+			when code in [300..531] and @weather.timeOfDay == 'n' then @getBackground('VR0s3Yqm2RA') #night rain
+			when code in [600..622] and @weather.timeOfDay == 'd' then @getBackground('lOXSEYO6a90') #day snow
+			when code in [600..622] and @weather.timeOfDay == 'n' then @getBackground('Qh6wsKk1HWg') #night snow
+			when code == 800 and @weather.timeOfDay == 'd' then @getBackground('HzXhY9Wgzbw') #day clear
+			when code == 800 and @weather.timeOfDay == 'n' then @getBackground('KTIVMMOXNu8') #night clear
+			when (code in [801..804] or code in [701, 721, 741]) and @weather.timeOfDay == 'd' then @getBackground('T12tlLGd3EE') #day clouds
+			when code in [801..804] and @weather.timeOfDay == 'n' then @getBackground('w8yLxjJVn4U') #night clouds
+			else @getBackground('HzXhY9Wgzbw')
+
+	getWeather: (latitude, longitude)->
+		units = if @weather.metric then 'metric' else 'imperial'
+		url = "api.openweathermap.org/data/2.5/weather?lat=#{latitude}&lon=#{longitude}&APPID=#{@weather.apiKey}&units=#{units}"
+		console.log url
+		$.get url, (data) =>
+			@$('.working').addClass('animate fadeOut')
+			@weather.location = data.name
+			@weather.description = data.weather[0].description.toUpperCase()
+			@weather.temp = Math.round(data.main.temp)
+			@weather.icon = "openweathermap.org/img/w/#{data.weather[0].icon}.png"
+			@weather.minTemp = Math.round(data.main.temp_min)
+			@weather.maxTemp = Math.round(data.main.temp_max)
+			@weather.hidden = false
+			@weather.code = data.weather[0].id
+			if data.dt > data.sys.sunrise and data.dt < data.sys.sunset
+				@weather.timeOfDay = "d"
+			else
+				@weather.timeOfDay = "n"
+			@getWeatherPic()	
+			@render()
+
+AppRouter = Backbone.Router.extend
+	routes:         
+		'': 'homeRoute'
+		'home': 'homeRoute'         
+
+	homeRoute: ->
+		homeView = new WeatherView()
+		$("#content").html(homeView.el)
+
+		
+appRouter = new AppRouter()
+Backbone.history.start()
