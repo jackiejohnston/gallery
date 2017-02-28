@@ -22,17 +22,5 @@
     "start-datetime": "2017-02-21 11:00:00",
     "end-datetime": "2017-03-11 17:00:00",
     "date-description": "Feb. 21, 2017 - March 11, 2017"
-  },
-  {
-    "title": "Color Me Bold Artists' Reception",
-    "description": "San Fernando Valley Arts & Cultural Center's Color Me Bold Artists' Reception",
-    "location-name": "San Fernando Valley Arts & Cultural Center",
-    "location-website": "http://www.sfvacc.org",
-    "location-address": "18312 Oxnard St, Tarzana, CA 91356",
-    "location-map-url": "https://goo.gl/maps/6ZrZcgiUeGt",
-    "timezone": "America/Los_Angeles",
-    "start-datetime": "2017-02-26 17:00:00",
-    "end-datetime": "2017-02-26 19:00:00",
-    "date-description": "Saturday Feb. 26, 2017, 5-7pm"
   }
 ]
