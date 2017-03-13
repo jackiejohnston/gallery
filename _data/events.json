@@ -1,5 +1,31 @@
 [
   {
+    "title": "Muse &amp; Mystique",
+    "description": "Women&#39;s City Club of Pasadena's Exhibit",
+    "location-name": "Blinn House",
+    "location-website": "https://www.facebook.com/Womens-City-Club-of-Pasadena-229945003682467/about/?section=hours&tab=page_info",
+    "location-address": "160 N Oakland Ave, Pasadena, CA 91101",
+    "location-map-url": "https://goo.gl/maps/pt5pXSk9A932",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2016-03-10 18:00:00",
+    "end-datetime": "2017-06-01 18:00:00",
+    "date-description": "March 10, 2017 - June 1, 2017",
+    "current": true
+  },  
+  {
+    "title": "Muse &amp; Mystique",
+    "description": "Women&#39;s City Club of Pasadena's Artists Reception",
+    "location-name": "Blinn House",
+    "location-website": "https://www.facebook.com/Womens-City-Club-of-Pasadena-229945003682467/about/?section=hours&tab=page_info",
+    "location-address": "160 N Oakland Ave, Pasadena, CA 91101",
+    "location-map-url": "https://goo.gl/maps/pt5pXSk9A932",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2016-03-10 18:00:00",
+    "end-datetime": "2017-03-10 21:00:00",
+    "date-description": "March 10, 2017",
+    "current": false
+  },
+  {
     "title": "Red Exhibit",
     "description": "California Art League's Red Exhibit",
     "location-name": "Blinn House",
@@ -9,7 +35,8 @@
     "timezone": "America/Los_Angeles",
     "start-datetime": "2016-12-03 09:00:00",
     "end-datetime": "2017-03-10 19:00:00",
-    "date-description": "Dec. 3, 2016 - March 10, 2017"
+    "date-description": "Dec. 3, 2016 - March 10, 2017",
+    "current": false
   },
   {
     "title": "Color Me Bold Exhibit",
@@ -21,6 +48,7 @@
     "timezone": "America/Los_Angeles",
     "start-datetime": "2017-02-21 11:00:00",
     "end-datetime": "2017-03-11 17:00:00",
-    "date-description": "Feb. 21, 2017 - March 11, 2017"
+    "date-description": "Feb. 21, 2017 - March 11, 2017",
+    "current": false
   }
 ]
