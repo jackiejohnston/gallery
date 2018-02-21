@@ -1,5 +1,37 @@
 [
   {
+    "year": "2018",
+    "title": "Rock, Paper, Scissors",
+    "gallery": "San Fernando Valley Arts & Cultural Center",
+    "selection-process": "juried",
+    "juror-curator": "Mary Sherwood Brock",
+    "city": "Tarzana",
+    "state": "Calif.",
+    "category": "Juried open group exhibit"
+  },
+  {
+    "year": "2017",
+    "title": "Glow",
+    "other-artists": "other California Art League members",
+    "gallery": "San Fernando Valley Arts & Cultural Center",
+    "selection-process": "juried",
+    "juror-curator": "Donna Geist Buch",
+    "city": "Tarzana",
+    "state": "Calif.",
+    "category": "Juried group exhibit"
+  },
+  {
+    "year": "2017",
+    "title": "Dreams",
+    "other-artists": "other California Art League members",
+    "gallery": "San Fernando Valley Arts & Cultural Center",
+    "selection-process": "juried",
+    "juror-curator": "Otto Sturcke",
+    "city": "Tarzana",
+    "state": "Calif.",
+    "category": "Juried group exhibit"
+  },
+  {
     "year": "2017",
     "title": "Muse &amp; Mystique",
     "description": "Women&#39;s City Club of Pasadena Exhibit",

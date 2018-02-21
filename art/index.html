@@ -56,9 +56,10 @@ image: /images/photos/animals07.jpg
           {% for piece in site.data.artworks %}
             <li>
               <div>
-                <img class="slide" src="/images/artwork/{{ piece.title | url_encode | replace: '+', '-' | replace: '%27', '' }}-sm.jpg" alt="{{ piece.title }}, {{ piece.original }} {{ piece.medium }} {{ piece.category }}, {{ piece.height }}Hx{{ piece.width }}W. Copyright &#169; {{ piece.year }} Jackie Johnston. All Rights Reserved." data-height="{{ piece.imgHeight }}" data-width="{{ piece.imgWidth }}" data-available="{{ piece.available }}">
+                {% capture title %}{% if piece.alt_title %}{{ piece.alt_title }}{% else %}{{ piece.title }}{% endif %}{% endcapture %}
+                <img class="slide" src="/images/artwork/{{ piece.title | url_encode | replace: '+', '-' | replace: '%27', '' }}-sm.jpg" alt="{{ title }}, {{ piece.original }} {{ piece.medium }} {{ piece.category }}, {{ piece.height }}Hx{{ piece.width }}W. Copyright &#169; {{ piece.year }} Jackie Johnston. All Rights Reserved." data-height="{{ piece.imgHeight }}" data-width="{{ piece.imgWidth }}" data-available="{{ piece.available }}">
                 <h5 class="text-center">
-                  <em>{{ piece.title }}</em><br>
+                  <em>{{ title }}</em><br>
                   <small>
                     {{ piece.original | capitalize }} {{ piece.medium }} {{ piece.category }}<br>
                     {{ piece.height }}" H x {{ piece.width }}" W<br>
