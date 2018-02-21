@@ -2,7 +2,7 @@
   {
     "title": "Moon Jellies",
     "year": 2018,
-    "original": "limited edition handmade print",
+    "original": "limited edition",
     "height": 10,
     "width": 8,
     "imgHeight": 2000,
@@ -14,7 +14,7 @@
   {
     "title": "Baby Honu",
     "year": 2018,
-    "original": "limited edition handmade print",
+    "original": "limited edition",
     "height": 12,
     "width": 9,
     "imgHeight": 2000,
@@ -26,7 +26,7 @@
   {
     "title": "Manta Ray",
     "year": 2018,
-    "original": "limited edition handmade print",
+    "original": "limited edition",
     "height": 8,
     "width": 8,
     "imgHeight": 2000,
@@ -38,7 +38,7 @@
   {
     "title": "Sea Turtle",
     "year": 2018,
-    "original": "limited edition handmade print",
+    "original": "limited edition",
     "height": 8,
     "width": 10,
     "imgHeight": 1309,
@@ -166,14 +166,12 @@
     "original": "original",
     "height": 18,
     "width": 24,
-    "available": true,
-    "price": 595,
+    "available": false,
     "imgHeight": 1455,
     "imgWidth": 2000,
     "medium": "acrylic on canvas",
     "category": "painting",
     "notes": "Winner of the Audience Favorite award at the 2016 California Art Club&#39;s <em>Plein Air at the Fair</em> exhibit at the Millard Sheets Art Center, Pomona, Calif. and winner of a Merchandise Award at the 2016 California Art League&#39;s Gold Medal <em>Spirits of the Night</em> exhibit at the San Fernando Valley Arts &amp; Cultural Center, Tarzana, Calif. On exhibit at the Women&#39;s City Club of Pasadena's <em>Muse &amp; Mystique</em> exhibit at the Blinn House, Pasadena, Calif., until June 1, 2016.",
-    "purchase_url": "https://www.saatchiart.com/art/Painting-Big-Top-Swinger/799635/3165445/view"
   },
   {
     "title": "Eat Your Heart Out",
