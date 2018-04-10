@@ -1,5 +1,53 @@
 [
   {
+    "title": "Blossom",
+    "year": 2018,
+    "original": "original",
+    "height": 16,
+    "width": 20,
+    "imgHeight": 1566,
+    "imgWidth": 2000,
+    "medium": "soft pastel on board",
+    "category": "",
+    "notes": "On exhibit 4/12/2018 at Farmers & Merchant Bank, DTLA."
+  },
+  {
+    "title": "Old Plaza Firehouse",
+    "year": 2018,
+    "original": "original",
+    "height": 20,
+    "width": 16,
+    "imgHeight": 2000,
+    "imgWidth": 1600,
+    "medium": "soft pastel on board",
+    "category": "",
+    "notes": "On exhibit 4/12/2018 at Farmers & Merchant Bank, DTLA."
+  },
+  {
+    "title": "La Plaza",
+    "year": 2018,
+    "original": "original",
+    "height": 16,
+    "width": 20,
+    "imgHeight": 1626,
+    "imgWidth": 2000,
+    "medium": "soft pastel on board",
+    "category": "",
+    "notes": "On exhibit 4/12/2018 at Farmers & Merchant Bank, DTLA."
+  },
+  {
+    "title": "Surfer Sunrise",
+    "year": 2018,
+    "original": "original",
+    "height": 18,
+    "width": 18,
+    "imgHeight": 2000,
+    "imgWidth": 2000,
+    "medium": "oil on canvas",
+    "category": "painting",
+    "notes": ""
+  },
+  {
     "title": "Moon Jellies",
     "year": 2018,
     "original": "limited edition",
@@ -9,7 +57,7 @@
     "imgWidth": 1586,
     "medium": "ink on paper",
     "category": "linocut relief print",
-    "notes": "Currently on exhibit at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
+    "notes": "Was exhibited at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
   },
   {
     "title": "Baby Honu",
@@ -21,7 +69,7 @@
     "imgWidth": 1555,
     "medium": "ink on paper",
     "category": "linocut relief print",
-    "notes": "Currently on exhibit at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
+    "notes": "Was exhibited at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
   },
   {
     "title": "Manta Ray",
@@ -33,7 +81,7 @@
     "imgWidth": 2000,
     "medium": "ink and watercolor on paper",
     "category": "solar relief print with wash",
-    "notes": "Currently on exhibit at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
+    "notes": "Was exhibited at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
   },
   {
     "title": "Sea Turtle",
@@ -45,7 +93,7 @@
     "imgWidth": 2000,
     "medium": "ink on paper",
     "category": "linocut relief print",
-    "notes": "Currently on exhibit at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
+    "notes": "Was exhibited at the San Fernando Valley Arts &amp; Cultural Center's 2018 <em>Rock, Paper, Scissors</em> show, Tarzana, Calif."
   },
   {
     "title": "The Board Walk Santa Monica",
@@ -55,7 +103,7 @@
     "height": 12,
     "width": 24,
     "available": false,
-    "imgHeight": 986,
+    "imgHeight": 995,
     "imgWidth": 2000,
     "medium": "oil on canvas",
     "category": "painting",
@@ -129,7 +177,7 @@
     "medium": "multimedia",
     "category": "painting",
     "notes": "Was exhibited at the San Fernando Valley Arts &amp; Cultural Center's 2017 <em>Color Me Bold</em> show, Tarzana, Calif."
-  },  
+  },
   {
     "title": "Moolack Beach",
     "year": 2016,
@@ -144,7 +192,7 @@
     "category": "painting",
     "notes": "Was exhibited at the California Art League&#39;s 2016/2017 <em>Red</em> show at the at the Blinn House, Pasadena, Calif.",
     "purchase_url": "https://www.saatchiart.com/art/Painting-Moolack-Beach/799635/3431608/view"
-  },  
+  },
   {
     "title": "Seventh Wave",
     "year": 2016,
@@ -349,5 +397,5 @@
     "category": "",
     "notes": "Was exhibited at the Women&#39;s City Club of Pasadena's <em>Passion!</em> exhibit at the Blinn House, Pasadena, Calif. in 2016.",
     "purchase_url": "https://www.saatchiart.com/art/Drawing-Isla-Mujeres/799635/2543732/view"
-  },     
+  },
 ]
