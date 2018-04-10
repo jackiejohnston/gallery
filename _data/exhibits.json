@@ -1,6 +1,14 @@
 [
   {
     "year": "2018",
+    "title": "Los Angeles Plein Air Festival",
+    "gallery": "Farmers & Merchants Bank",
+    "city": "Los Angeles",
+    "state": "Calif.",
+    "category": "Open group exhibit"
+  },
+  {
+    "year": "2018",
     "title": "Rock, Paper, Scissors",
     "gallery": "San Fernando Valley Arts & Cultural Center",
     "selection-process": "juried",
@@ -39,7 +47,7 @@
     "city": "Pasadena",
     "state": "Calif.",
     "category": "Curated invitational group exhibit"
-  },   
+  },
   {
     "year": "2017",
     "title": "Color Me Bold",
@@ -49,7 +57,7 @@
     "city": "Tarzana",
     "state": "Calif.",
     "category": "Juried open group exhibit"
-  },    
+  },
   {
     "year": "2016",
     "title": "Red",
