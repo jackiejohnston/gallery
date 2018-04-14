@@ -67,7 +67,11 @@ image: /images/photos/animals07.jpg
                   </small>
                 </h5>
                 <p><small class="text-muted text-left">{{ piece.notes }}</small></p>
-                {% if piece.purchase_url %}<a href="{{ piece.purchase_url }}" target="_blank" class="btn btn-sm btn-default">Available</a>{% endif %}
+                {% if piece.purchase_url %}
+                  <a href="{{ piece.purchase_url }}" target="_blank" class="btn btn-sm btn-default">Available</a>
+                {% elsif piece.available %}
+                <p class="text-center small">Available</p>
+                {% endif %}
               </div>
             </li>
           {% endfor %}

@@ -1,4 +1,4 @@
-# Gallery
+git # Gallery
 This is my personal website built with [Jekyll](https://jekyllrb.com/).
 
 You can view it on GitHub Pages at: [http://www.jackiejohnston.us](http://www.jackiejohnston.us)
