@@ -88,6 +88,19 @@
     "start-datetime": "2018-04-12 17:00:00",
     "end-datetime": "2018-04-12 21:00:00",
     "date-description": "Thursday April 12, 2018, 5-9pm",
-    "current": true
+    "current": false
+  },
+  {
+    "title": "Expressions Exhibit",
+    "description": "California Art League's Expressions Exhibit",
+    "location-name": "San Fernando Valley Arts & Cultural Center",
+    "location-website": "http://www.sfvacc.org",
+    "location-address": "18312 Oxnard St, Tarzana, CA 91356",
+    "location-map-url": "https://goo.gl/maps/6ZrZcgiUeGt",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2018-05-30 11:00:00",
+    "end-datetime": "2018-06-23 17:00:00",
+    "date-description": "May 30, 2018 - June 23, 2018",
+    "current": false
   },
 ]
