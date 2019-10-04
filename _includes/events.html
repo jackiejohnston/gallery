@@ -1,6 +1,6 @@
 {% assign events = site.data.events | where:"current", true %}
 <div class="row">
-  {% if events.length > 0 %}
+  {% if events.size > 0 %}
     {% for event in events %}
       <div class="col-xs-12 col-sm-11 col-sm-offset-1 m-b-3">
         <p>
