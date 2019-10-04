@@ -91,16 +91,29 @@
     "current": false
   },
   {
-    "title": "Expressions Exhibit",
-    "description": "California Art League's Expressions Exhibit",
+    "title": "Motion Exhibit",
+    "description": "California Art League's Annual Gold Medal Show",
     "location-name": "San Fernando Valley Arts & Cultural Center",
     "location-website": "http://www.sfvacc.org",
     "location-address": "18312 Oxnard St, Tarzana, CA 91356",
     "location-map-url": "https://goo.gl/maps/6ZrZcgiUeGt",
     "timezone": "America/Los_Angeles",
-    "start-datetime": "2018-05-30 11:00:00",
-    "end-datetime": "2018-06-23 17:00:00",
-    "date-description": "May 30, 2018 - June 23, 2018",
-    "current": false
+    "start-datetime": "2019-10-01 11:00:00",
+    "end-datetime": "2019-10-26 17:00:00",
+    "date-description": "Oct. 1-26, 2019, Tuesday-Saturday, 11am-5pm",
+    "current": true
+  },
+  {
+    "title": "Motion Artists Reception",
+    "description": "California Art League's Artists Reception",
+    "location-name": "San Fernando Valley Arts & Cultural Center",
+    "location-website": "http://www.sfvacc.org",
+    "location-address": "18312 Oxnard St, Tarzana, CA 91356",
+    "location-map-url": "https://goo.gl/maps/6ZrZcgiUeGt",
+    "timezone": "America/Los_Angeles",
+    "start-datetime": "2019-10-05 15:00:00",
+    "end-datetime": "2019-10-05 17:00:00",
+    "date-description": "Saturday Oct. 5, 2019, 3-5pm",
+    "current": true
   },
 ]

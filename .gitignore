@@ -2,3 +2,4 @@
 CNAME
 .sass-cache
 .jekyll-metadata
+.env
