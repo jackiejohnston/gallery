@@ -37,7 +37,6 @@ body {
   margin-left: 50px; 
   float: left;
 /* rotate it for a more realistic look: */
-  -webkit-transform: rotate(5deg);
   transform: rotate(5deg);
 }
 
@@ -77,7 +76,6 @@ experiment with this depending on your rotation and what else is on the page: */
 /* give it a drop shadow: */
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 /* rotate it for a more realistic look: */
-  -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
 
@@ -225,7 +223,6 @@ ul.polaroids li a:hover {
     margin-left: auto;
     margin-right: auto;
 /* rotate it for a more realistic look: */
-    -webkit-transform: rotate(-2deg);
     transform: rotate(-2deg);
   }
   

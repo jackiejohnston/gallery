@@ -7,27 +7,29 @@ title: Jackie Johnston | Artist CV
     <div class="pull-left"><a href="/art"><i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp; Go back</a></div>
     <h1 class="text-center">Jackie Johnston</h1>
     <address class="text-center">
-      Currently lives in Los Angeles and works in Pasadena, Calif.<br>
-      <a href="http://www.jackiejohnston.com">www.jackiejohnston.com</a>
+      Currently lives and works in Kihei, Hawaii.<br>
+      <a href="http://www.jackiejohnston.com">www.jackiejohnston.com</a> &nbsp;|&nbsp; <i class="fa fa-instagram fa-lg" aria-hidden="true"></i> <a href="https://www.instagram.com/heartsbeach/" target="_blank">@heartsbeach</a>
     </address>
 
-    <h3>Art Classes &amp; Workshops</h3>
+    <h3>Art Classes &amp; Workshops Taken</h3>
     <ul class="list-unstyled year-range-list">
-      <li><span class="cv-year cv-year-range">2011 Fall Qtr.</span>Painting I (Art 2151) taught by Tracy Petre, Columbia Basin College, Pasco, Wash.</li>
-      <li><span class="cv-year cv-year-range">2016 Fall Qtr.</span>Plein Air Painting (ACN-114W) taught by Robert Sherrill, Art Center at Night, Pasadena, Calif.</li>
+      <li><span class="cv-year cv-year-range">2020</span>Big Ink Woodblock Workshop taught by Lyell Castonguay, San Francisco, Calif.</li>
+      <li><span class="cv-year cv-year-range">2019</span>Lino Reduction Workshop taught by Joseph Vorgity, Santa Monica, Calif.</li>
+      <li><span class="cv-year cv-year-range">2017</span>Oil Painting Workshop taught by Calvin Liang, Corona, Calif.</li>
       <li><span class="cv-year cv-year-range">2017</span>Plein Air Workshop taught by Eric Merrell, Joshua Tree, Calif.</li>
-      <li><span class="cv-year cv-year-range">2017</span>Workshop taught by Calvin Liang, Corona, Calif.</li>
+      <li><span class="cv-year cv-year-range">2016 Fall Qtr.</span>Plein Air Painting (ACN-114W) taught by Robert Sherrill, Art Center at Night, Pasadena, Calif.</li>
+      <li><span class="cv-year cv-year-range">2011 Fall Qtr.</span>Painting I (Art 2151) taught by Tracy Petre, Columbia Basin College, Pasco, Wash.</li>
     </ul>
 
-    <h3>Exhibits & Awards</h3>
+    <h3>Group Exhibits & Awards</h3>
     <ul class="list-unstyled year-list">
       {% for exhibit in site.data.exhibits %}
         <li>
-          <span class="cv-year">{{ exhibit.year }}</span><em><strong>{{ exhibit.title }}</strong></em>&nbsp;{% if exhibit.description %}{{ exhibit.description | prepend: ': ' }}{% endif %}{% if exhibit.other-artists %}{{ exhibit.other-artists | prepend: ' with ' }}. {% endif %}{% if exhibit.juror-curator %}{{ exhibit.selection-process | capitalize }}{{ exhibit.juror-curator | prepend: ' by ' | append: ', ' }}{% endif %}{{ exhibit.gallery }}{% if exhibit.city %}{{ exhibit.city | prepend: ', ' }}{% endif %}{% if exhibit.state %}{{ exhibit.state | prepend: ', ' }}{% endif %}{{ exhibit.category | prepend: ' (' | append: '.)' }}{% if exhibit.award %}{{ exhibit.award | prepend: ' Won ' | append: ' for '}}<em>{{ exhibit.award-for }}</em>.{% endif %}
+          <span class="cv-year">{{ exhibit.year }}</span><em><strong>{{ exhibit.title }}</strong></em>&nbsp;{% if exhibit.description %}{{ exhibit.description }}{% endif %}{% if exhibit.other-artists %}{{ exhibit.other-artists | prepend: ' with ' }}. {% endif %}{% if exhibit.juror-curator %}{{ exhibit.selection-process | capitalize }}{{ exhibit.juror-curator | prepend: ' by ' | append: ', ' }}{% endif %}{{ exhibit.gallery }}{% if exhibit.city %}{{ exhibit.city | prepend: ', ' }}{% endif %}{% if exhibit.state %}{{ exhibit.state | prepend: ', ' }}{% endif %}{{ exhibit.category | prepend: ' (' | append: '.)' }}{% if exhibit.award %}{{ exhibit.award | prepend: ' Won ' | append: ' for '}}<em>{{ exhibit.award-for }}</em>.{% endif %}
         </li>
       {% endfor %}
     </ul>
-    
+
     <h3>Collections</h3>
     <ul class="list-unstyled">
       <li>Esvelt Art Gallery, Columbia Basin College, Pasco, Wash.</li>
@@ -35,8 +37,11 @@ title: Jackie Johnston | Artist CV
 
     <h3>Affiliations</h3>
     <ul class="list-unstyled year-range-list">
-      <li><span class="cv-year cv-year-range">2015-Present</span>Exhibiting Member & Board Member, <a href="http://californiaartleague.org/" target="_blank">California Art League</a>, Tarzana, Calif.</li>
-      <li><span class="cv-year cv-year-range">2015-Present</span>Associate Artist, <a href="http://californiaartclub.org/" target="_blank">California Art Club</a>, Pasadena, Calif.</li>
+      <li><span class="cv-year cv-year-range">2021-Present</span>Member <a href="https://www.mauipastelsociety.org/" target="_blank">Maui Pastel Society</a></li>
+      <li><span class="cv-year cv-year-range">2020-2021</span>Member <a href="https://pswc.ws/" target="_blank">Pastel Society of the West Coast</a></li>
+      <li><span class="cv-year cv-year-range">2020-2021</span>Member <a href="https://www.psscwebsite.org/" target="_blank">Pastel Society of Southern California</a></li>
+      <li><span class="cv-year cv-year-range">2015-2021</span>Exhibiting Member & Board Member, <a href="http://californiaartleague.org/" target="_blank">California Art League</a>, Tarzana, Calif.</li>
+      <li><span class="cv-year cv-year-range">2015-2018</span>Associate Artist, <a href="http://californiaartclub.org/" target="_blank">California Art Club</a>, Pasadena, Calif.</li>
       <li><span class="cv-year cv-year-range">2015-2016</span>Artist Member, <a href="http://www.laaa.org/" target="_blank">Los Angeles Art Association</a>, Los Angeles, Calif.</li>
     </ul>
 

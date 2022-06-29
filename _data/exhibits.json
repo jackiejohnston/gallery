@@ -1,7 +1,33 @@
 [
   {
+    "year": "2021",
+    "title": "Mālama Wao Akua",
+    "gallery": "Hui No'eau Visual Arts Center",
+    "selection-process": "juried",
+    "juror-curator": "Chenta Laury &amp; Kerri Fay",
+    "city": "Makawao",
+    "state": "Hawaii",
+    "category": "Juried group exhibit"
+  },
+  {
+    "year": "2020",
+    "title": "Members Only Online Show (MOOS)",
+    "gallery": "Pastel Society of the West Coast",
+    "selection-process": "juried",
+    "juror-curator": "Clark G. Mitchell",
+    "category": "<a href='https://pswc.ws/members-only-online-show-moos-2020/' target='_blank'>Online juried group exhibit</a>"
+  },
+  {
+    "year": "2020",
+    "title": "Wild World Gold Medal Exhibit",
+    "other-artists": "other California Art League members",
+    "selection-process": "juried",
+    "juror-curator": "Victor Picou",
+    "category": "<a href='https://www.californiaartleague.com/viewcollection/150746'>Online juried group exhibit</a>"
+  },
+  {
     "year": "2019",
-    "title": "Motion",
+    "title": "Motion Gold Metal Exhibit",
     "other-artists": "other California Art League members",
     "gallery": "San Fernando Valley Arts & Cultural Center",
     "selection-process": "juried",
@@ -19,7 +45,7 @@
     "city": "Lahaina",
     "state": "Hawaii",
     "category": "Juried open group exhibit"
-  }, 
+  },
   {
     "year": "2019",
     "title": "Renewal",
@@ -29,10 +55,10 @@
     "city": "Tarzana",
     "state": "Calif.",
     "category": "Juried open group exhibit"
-  }, 
+  },
   {
     "year": "2018",
-    "title": "Fantasy",
+    "title": "Fantasy Gold Metal Exhibit",
     "other-artists": "other California Art League members",
     "gallery": "San Fernando Valley Arts & Cultural Center",
     "selection-process": "juried",
@@ -40,17 +66,7 @@
     "city": "Tarzana",
     "state": "Calif.",
     "category": "Juried group exhibit"
-  },  
-  {
-    "year": "2018",
-    "title": "Expressions",
-    "gallery": "San Fernando Valley Arts & Cultural Center",
-    "selection-process": "juried",
-    "juror-curator": "Joe Cibere",
-    "city": "Tarzana",
-    "state": "Calif.",
-    "category": "Juried open group exhibit"
-  },  
+  },
   {
     "year": "2018",
     "title": "Expressions",
@@ -60,7 +76,7 @@
     "juror-curator": "Joe Cibere",
     "city": "Tarzana",
     "state": "Calif.",
-    "category": "Juried group exhibit"
+    "category": "Juried open group exhibit"
   },
   {
     "year": "2018",
@@ -86,7 +102,7 @@
   },
   {
     "year": "2017",
-    "title": "Glow",
+    "title": "Glow Gold Metal Exhibit",
     "other-artists": "other California Art League members",
     "gallery": "San Fernando Valley Arts & Cultural Center",
     "selection-process": "juried",
@@ -109,7 +125,7 @@
   {
     "year": "2017",
     "title": "Muse &amp; Mystique",
-    "description": "Women&#39;s City Club of Pasadena Exhibit",
+    "description": "Women&#39;s City Club of Pasadena Exhibit. ",
     "gallery": "Blinn House",
     "city": "Pasadena",
     "state": "Calif.",
@@ -152,7 +168,7 @@
   {
     "year": "2016",
     "title": "Passion!",
-    "description": "Women&#39;s City Club of Pasadena Exhibit",
+    "description": "Women&#39;s City Club of Pasadena Exhibit. ",
     "gallery": "Blinn House",
     "city": "Pasadena",
     "state": "Calif.",
@@ -199,7 +215,7 @@
     "gallery": "Light Space & Time",
     "selection-process": "juried",
     "juror-curator": "Mallory Whitfield",
-    "category": "<a href='https://www.lightspacetime.com/seascapes-art-exhibition-september-2015/' target='_blank'>Online</a> juried group exhibit",
+    "category": "<a href='https://www.lightspacetime.com/seascapes-art-exhibition-september-2015/' target='_blank'>Online juried group exhibit</a>",
     "award": "6th place overall and 4th place in the painting category awards",
     "award-for": "Beach Walker"
   },
@@ -209,7 +225,7 @@
     "gallery": "Saatchi Art",
     "selection-process": "curated",
     "juror-curator": "Jessica McQueen",
-    "category": "<a href='http://www.saatchiart.com/art-collection/Painting-Photography-Collage/Made-in-the-USA/722504/112668/view' target='_blank'>Online</a> curated group invitational exhibit"
+    "category": "<a href='http://www.saatchiart.com/art-collection/Painting-Photography-Collage/Made-in-the-USA/722504/112668/view' target='_blank'>Online curated group invitational exhibit</a>"
   },
   {
     "year": "2012",
