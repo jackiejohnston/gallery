@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col font-monospace small text-uppercase text-body-tertiary text-end text-center">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}"><i class="fas fa-caret-left me-2" aria-hidden="true"></i>Previous</a>
+      {% else %}
+        <span><i class="fas fa-caret-left me-2" aria-hidden="true"></i>Previous</span>
+      {% endif %}
+      <span style="color: var(--bs-body-color);">
+        Page {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}">Next<i class="fas fa-caret-right ms-2" aria-hidden="true"></i></a>
+      {% else %}
+        <span>Next<i class="fas fa-caret-right ms-2" aria-hidden="true"></i></span>
+      {% endif %}
+    </div>
+  </div>
+</div>

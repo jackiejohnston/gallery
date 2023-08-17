@@ -1,0 +1,171 @@
+---
+layout: default
+---
+<div itemscope itemtype="https://schema.org/VisualArtwork" class="container pt-5">
+  <div class="row">
+    <div class="col-md-7 pb-4">
+      <figure id="gallery" class="figure">
+        {% assign desktop_longest_side = 700 %}
+        {% assign primary_image = site.data.images | where: "art_slug", page.slug | where: "public", true | where: "primary", true %}
+        {% if primary_image.first.width > primary_image.first.height %}
+          {% assign desktop_width = desktop_longest_side %}
+          {% assign desktop_height = primary_image.first.height | times: desktop_width | divided_by: primary_image.first.width %}
+        {% elsif primary_image.first.height > primary_image.first.width %}
+          {% assign desktop_height = desktop_longest_side %}
+          {% assign desktop_width = primary_image.first.width | times: desktop_height | divided_by: primary_image.first.height %}
+        {% else %}
+          {% assign desktop_height = desktop_longest_side %}
+          {% assign desktop_width = desktop_longest_side %}
+        {% endif %}
+        <a href="{{ site.cloudinary_folder | append: 'c_scale,h_' | append: primary_image.first.width | append: ',w_' | append: primary_image.first.height | append: '/' | append: primary_image.first.url }}"
+        id="{{ primary_image.first.url | replace: '/', '' | replace: '.', '' }}-main"
+        data-pswp-width="{{ primary_image.first.width }}"
+        data-pswp-height="{{ primary_image.first.height }}"
+        target="_blank" class="gallery-image">
+          <img itemprop="image" src="{{ site.cloudinary_folder | append: site.cloudinary_size | replace: '500', desktop_longest_side | append: primary_image.first.url }}" alt="click to enlarge" class="img-fluid" width="{{ desktop_width }}" height="{{ desktop_height }}">
+        </a>
+        {% assign secondary_images = site.data.images | where: "art_slug", page.slug | where: "public", true | where: "primary", false %}
+        {% for secondary_image in secondary_images %}
+          <a href="{{ site.cloudinary_folder | append: 'c_scale,h_' | append: secondary_image.width | append: ',w_' | append: secondary_image.height | append: '/' | append: secondary_image.url }}"
+          id="{{ secondary_image.url | replace: '/', '' | replace: '.', '' }}-main"
+          data-pswp-width="{{ secondary_image.width }}"
+          data-pswp-height="{{ secondary_image.height }}"
+          target="_blank" class="gallery-image d-none">
+            <img src="{{ site.cloudinary_folder | append: site.cloudinary_size | replace: '500', '700' | append: secondary_image.url }}" alt="click to enlarge" class="img-fluid" loading="lazy">
+          </a>
+        {% endfor %}
+        <figcaption itemprop="copyrightNotice" class="figure-caption text-center">
+          Copyright &#169; <span itemprop="copyrightYear">{{ page.year }}</span> <span itemprop="copyrightHolder">{{ site.artist }}</span>. All Rights Reserved.
+        </figcaption>
+      </figure>
+      {% assign thumbnails = site.data.images | where: "art_slug", page.slug | where: "public", true %}
+      {% assign thumbnail_count = thumbnails | size %}
+      {% if thumbnail_count > 1 %}
+        <div class="mt-4">
+          {% for thumbnail in thumbnails %}
+            <img id="{{ thumbnail.url | replace: '/', '' | replace: '.', '' }}" class="thumbnail-image me-4 mb-4" src="{{ site.cloudinary_folder | append: site.cloudinary_square | replace: '261', '100' | append: thumbnail.url }}" alt="" loading="lazy">
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="col-md-5">
+      <table class="table table-borderless align-baseline">
+        <tbody>
+          <tr>
+            <th scope="row" class="text-uppercase text-secondary small font-monospace">
+              Title:
+            </th>
+            <td>
+              <h1 class="h3 mb-0" itemprop="name">{{ page.title }}</h1>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-uppercase text-secondary small font-monospace">
+              Artist:
+            </th>
+            <td itemprop="creator" itemscope itemtype="https://schema.org/Person">{{ site.artist }}</td>
+          </tr>
+          {% if page.info %}
+            <tr>
+              <th scope="row" class="text-uppercase text-secondary small font-monospace">
+                Info:
+              </th>
+              <td itemprop="description">{{ page.info }}</td>
+            </tr>
+          {% endif %}
+          <tr>
+            <th scope="row" class="text-uppercase text-secondary small font-monospace">
+              About:
+            </th>
+            <td>
+              {% if page.original %}Original {% endif %}{% if page.open_edition%}open edition {% endif %}{% if page.limited_edition%}limited edition {% endif %}{% if page.number_in_edition %}of {{ page.number_in_edition }} {% endif %}{% if page.number_of_artist_proofs and page.number_of_artist_proofs > 0 %}with {{ page.number_of_artist_proofs }} artist proofs{% endif %}
+            </td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-uppercase text-secondary small font-monospace">
+              Size:
+            </th>
+            <td><span itemprop="width" itemscope itemtype="https://schema.org/Distance">{{ page.width }} inches</span> x <span itemprop="height" itemscope itemtype="https://schema.org/Distance">{{ page.height }} inches</span></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-uppercase text-secondary small font-monospace">
+              Media:
+            </th>
+            <td><span itemprop="artMedium">{{ page.medium }}</span> on <span itemprop="artworkSurface">{{ page.surface}}</span></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-uppercase text-secondary small font-monospace">
+              Year:
+            </th>
+            <td><time itemprop="dateCreated" datetime="{{ page.year }}">{{ page.year }}</time></td>
+          </tr>
+          {% if page.available %}
+            {% if page.price_framed or page.price_unframed %}
+              <tr>
+                <th scope="row" class="text-uppercase text-secondary small font-monospace">
+                  Price:
+                </th>
+                <td itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                  {% if page.price_framed %}
+                    <div><span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="{{ page.price_framed }}">{{ page.price_framed }}</span> framed</div>
+                  {% endif %}
+                  {% if page.price_unframed %}
+                    <div><span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="{{ page.price_unframed }}">{{ page.price_unframed }}</span>  unframed</div>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endif %}
+            {% if page.available_url and page.available_at %}
+              <tr>
+                <th scope="row" class="text-uppercase text-secondary small font-monospace text-nowrap">
+                  Buy at:
+                </th>
+                <td>
+                  <a itemprop="url" href="{{ page.available_url }}" target="_blank">{{ page.available_at }}</a>
+                  <div>
+                    <a href="{{ page.available_url }}" class="btn btn-sm btn-primary text-uppercase font-monospace mt-2" target="_blank">Buy Now</a>
+                  </div>
+                </td>
+              </tr>
+            {% endif %}
+          {% endif %}
+          {% if page.location %}
+            <tr>
+              <th scope="row" class="text-uppercase text-secondary small font-monospace">
+                Location:
+              </th>
+              <td>
+                {% if page.external_url %}
+                  <a href="{{ page.external_url }}" target="_blank">
+                    {{ page.location }}
+                  </a>
+                {% else %}
+                  {{ page.location }}
+                {% endif %}
+              </td>
+            </tr>
+          {% endif %}
+          {% if page.exhibits %}
+            <tr>
+              <th scope="row" class="text-uppercase text-secondary small font-monospace">
+                Exhibited:
+              </th>
+              <td>
+                {% for show in page.exhibits %}
+                  {% assign exhibit = site.data.exhibits | where: "slug", show %}
+                  {% assign exhibit_count = exhibit | size %}
+                  {% if exhibit_count > 0 %}
+                    <div class="mb-2"><span class="me-2">{{ exhibit.first.year }}</span> {% if exhibit.first.url %}<span class="fst-italic fw-bold me-2"><a href="{{ exhibit.first.url }}" target="_blank">{{ exhibit.first.title }}</a></span>{% else %}<span class="fst-italic fw-bold me-2">{{ exhibit.first.title }}</span>{% endif %} {% if exhibit.first.description %}{{ exhibit.first.description }}{% endif %}{% if exhibit.first.other-artists %}{{ exhibit.first.other-artists | prepend: ' with ' }}. {% endif %}{% if exhibit.first.juror-curator %}{{ exhibit.first.selection-process | capitalize }}{{ exhibit.first.juror-curator | prepend: ' by ' | append: ', ' }}{% endif %}{{ exhibit.first.gallery }}{% if exhibit.first.city %}{{ exhibit.first.city | prepend: ', ' }}{% endif %}{% if exhibit.first.state %}{{ exhibit.first.state | prepend: ', ' }}{% endif %}. {{ exhibit.first.category | prepend: ' (' | append: '.)' }}{% if exhibit.first.award-for == page.title %}{{ exhibit.first.award | prepend: ' Won ' }}.{% endif %}</div>
+                  {% endif %}
+                {% endfor %}
+              </td>
+            </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+

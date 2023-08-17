@@ -1,0 +1,60 @@
+title: Jackie Johnston
+tagline: Portfolio of artwork
+description: >-
+  Maui artist Jackie Johnston's portfolio of artwork in various media: oil and acrylic paintings, soft pastel drawings and printmaking.
+artist: Jackie Johnston
+logo:
+social:
+  name: Jackie Johnston
+  links:
+    - https://www.linkedin.com/in/jacquelinejohnston
+    - https://github.com/jackiejohnston
+    - https://www.instagram.com/jackiejohnstonart
+locale: en_US
+baseurl: ""
+url: "https://www.jackiejohnston.com"
+enforce_ssl: "www.jackiejohnston.com"
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'README.md'
+]
+cloudinary_folder: https://res.cloudinary.com/jackie-johnston-art/image/upload/
+cloudinary_size: if_w_gt_h/c_scale,w_500/if_else/c_scale,h_500/if_end/f_auto,q_auto,g_face/
+cloudinary_square: w_261,ar_1:1,c_fill,g_auto,f_auto,q_auto,g_face/
+cloudinary_og: c_fill,h_630,w_1200,f_auto,q_auto,g_face/
+autoprefixer:
+  browsers:
+    - last 2 versions
+
+collections:
+  posts:
+    output: true
+    permalink: /art/:slug/
+
+pagination:
+  enabled: true
+  per_page: 20
+  permalink: '/page/:num/'
+  title: ':title <span class="text-uppercase text-secondary font-monospace" style="font-size: .875rem;">page :num</span>'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  tags:
+    layouts:
+      - tag-page.html
+    enabled: true
+    slugify:
+      mode: pretty
+      cased: true
+  collections:
+    enabled: false

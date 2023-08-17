@@ -1,0 +1,274 @@
+---
+- slug: 95-annual-exhibition
+  year: 2023
+  title: "Honolulu Printmakers 95th Annual Exhibition"
+  gallery: Honolulu Printmakers & Downtown Art Center
+  selection-process: juried
+  juror-curator: Hiroki Morinoue
+  city: Honolulu
+  state: Hawaii
+  category: Juried group exhibit
+  url: https://www.honoluluprintmakers.org/2023-95th-exhibition-for-artists
+- slug: beneath-the-surface
+  year: 2023
+  title: "Beneath the Surface: Marine Life of Hawai‘i"
+  gallery: Hui No'eau Visual Arts Center
+  selection-process: juried
+  juror-curator: Gar Waterman &amp; Jessica Colla
+  city: Makawao
+  state: Hawaii
+  category: Juried group exhibit
+  url: https://www.huinoeau.com/virtual-exhibitions/2023/5/beneath-the-surface-marine-life-of-hawaii
+- slug: art-at-the-capitol-2023
+  year: 2023
+  title: Art at the Capitol
+  gallery: Hawaii State Capitol
+  city: Honolulu
+  state: Hawaii
+  selection-process: curated
+  juror-curator: elected officials
+  category: Curated group exhibit
+  url: https://sfca.hawaii.gov/art-at-the-capitol-2023/
+- slug: hui-annual-exhibit-2023
+  year: 2023
+  title: Annual Juried Exhibition
+  gallery: Hui No'eau Visual Arts Center
+  selection-process: juried
+  juror-curator: Rosina Potter
+  city: Makawao
+  state: Hawaii
+  category: Juried group exhibit
+  url: https://www.huinoeau.com/virtual-exhibitions/2023annualjuried
+- slug: 23-lahaina-poster-contest
+  year: 2022
+  title: Lahaina Poster Contest Exhibit
+  gallery: Village Gallery
+  selection-process: juried
+  juror-curator: George Allan
+  city: Lahaina
+  state: Hawaii
+  category: Juried open group exhibit
+- slug: second-annual-pastel-show
+  year: 2022
+  title: Maui Pastel Society's Second Annual Pastel Show
+  gallery: Village Gallery
+  selection-process: juried/judged
+  juror-curator: Clark Mitchell and Neida Bangerter
+  city: Lahaina
+  state: Hawaii
+  category: Juried group exhibit
+  url: http://www.villagegalleriesmaui.com/VillageGalleriesMaui/PastelShow2022.html
+- slug: 22-lahaina-poster-contest
+  year: 2021
+  title: Lahaina Poster Contest Exhibit
+  gallery: Village Gallery
+  selection-process: juried
+  juror-curator: George Allan
+  city: Lahaina
+  state: Hawaii
+  category: Juried open group exhibit
+- slug: malama-wao-akua-2021
+  year: 2021
+  title: Mālama Wao Akua
+  gallery: Hui No'eau Visual Arts Center
+  selection-process: juried
+  juror-curator: Chenta Laury &amp; Kerri Fay
+  city: Makawao
+  state: Hawaii
+  category: Juried group exhibit
+  award: Hawaii State Foundation on Culture and the Arts' Recognition Award
+  award-for: Standing Tall
+  url: https://www.huinoeau.com/virtual-exhibitions/2021/9/mlama-wao-akua-2021
+- slug: 2020-west-coast-pastel
+  year: 2020
+  title: Members Only Online Show (MOOS)
+  gallery: Pastel Society of the West Coast
+  selection-process: juried
+  juror-curator: Clark G. Mitchell
+  category: Online juried group exhibit
+  url: https://pswc.ws/members-only-online-show-moos-2020/
+- year: 2020
+  title: Wild World Gold Medal Exhibit
+  other-artists: other California Art League members
+  selection-process: juried
+  juror-curator: Victor Picou
+  category: "<a href='https://www.californiaartleague.com/viewcollection/150746'>Online
+    juried group exhibit</a>"
+- year: 2019
+  title: Motion Gold Metal Exhibit
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Laura Wambsgans
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+- slug: 20-lahaina-poster-contest
+  year: 2019
+  title: Lahaina Poster Contest Exhibit
+  gallery: Old Jail Gallery
+  selection-process: juried
+  juror-curator: committee
+  city: Lahaina
+  state: Hawaii
+  category: Juried open group exhibit
+- year: 2019
+  title: Renewal
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Anette Power
+  city: Tarzana
+  state: Calif.
+  category: Juried open group exhibit
+- year: 2018
+  title: Fantasy Gold Metal Exhibit
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Dino Mehaffie
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+- year: 2018
+  title: Expressions
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Joe Cibere
+  city: Tarzana
+  state: Calif.
+  category: Juried open group exhibit
+- year: 2018
+  title: Los Angeles Plein Air Festival
+  gallery: Farmers & Merchants Bank
+  city: Los Angeles
+  state: Calif.
+  category: Open group exhibit
+  selection-process: judged
+  juror-curator: Shana Nys Dambrot
+  award: honorable mention in the other/mixed media category
+  award-for: Old Plaza Firehouse
+- year: 2018
+  title: Rock, Paper, Scissors
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Mary Sherwood Brock
+  city: Tarzana
+  state: Calif.
+  category: Juried open group exhibit
+- year: 2017
+  title: Glow Gold Metal Exhibit
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Donna Geist Buch
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+- year: 2017
+  title: Dreams
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Otto Sturcke
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+- year: 2017
+  title: Muse &amp; Mystique
+  description: 'Women&#39;s City Club of Pasadena Exhibit. '
+  gallery: Blinn House
+  city: Pasadena
+  state: Calif.
+  category: Curated invitational group exhibit
+- year: 2017
+  title: Color Me Bold
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Donna Geist Buch
+  city: Tarzana
+  state: Calif.
+  category: Juried open group exhibit
+- year: 2016
+  title: Red
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Margaret Danielak
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+- year: 2016
+  title: Spirits of the Night Gold Medal Exhibit
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Ellen Brown
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+  award: Merchandise Award
+  award-for: Big Top Swinger
+- year: 2016
+  title: Passion!
+  description: 'Women&#39;s City Club of Pasadena Exhibit. '
+  gallery: Blinn House
+  city: Pasadena
+  state: Calif.
+  category: Curated invitational group exhibit
+- year: 2016
+  title: Plein Air at the Fair
+  other-artists: other California Art Club members
+  gallery: Millard Sheets Art Center
+  city: Pomona
+  state: Calif.
+  category: Non-curated invitational group exhibit
+  award: Audience Favorite award
+  award-for: Big Top Swinger
+- year: 2016
+  title: Flight & Flow
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Victor Picou
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+  award: Best of Show award
+  award-for: Port Angeles
+- year: 2015
+  title: Gold Medal Exhibit
+  other-artists: other California Art League members
+  gallery: San Fernando Valley Arts & Cultural Center
+  selection-process: juried
+  juror-curator: Daggi Wallace
+  city: Tarzana
+  state: Calif.
+  category: Juried group exhibit
+- year: 2015
+  title: SeaScapes
+  gallery: Light Space & Time
+  selection-process: juried
+  juror-curator: Mallory Whitfield
+  category: "<a href='https://www.lightspacetime.com/seascapes-art-exhibition-september-2015/'
+    target='_blank'>Online juried group exhibit</a>"
+  award: 6th place overall and 4th place in the painting category awards
+  award-for: Beach Walker
+- year: 2015
+  title: Made in the USA Collection
+  gallery: Saatchi Art
+  selection-process: curated
+  juror-curator: Jessica McQueen
+  category: "<a href='http://www.saatchiart.com/art-collection/Painting-Photography-Collage/Made-in-the-USA/722504/112668/view'
+    target='_blank'>Online curated group invitational exhibit</a>"
+- year: 2012
+  title: Juried Student Art Show
+  other-artists: other Columbia Basin College art students
+  selection-process: curated
+  juror-curator: Mary Dryburgh
+  gallery: Esvelt Art Gallery
+  city: Pasco
+  state: Wash.
+  category: Curated invitational group exhibit
+  award: Community Award and Purchase Award
+  award-for: Attempted Murder of Crows

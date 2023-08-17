@@ -1,0 +1,23 @@
+{% assign canonical_url = page.url | prepend: site.url %}
+{% capture page_seo_title %}{% if page.layout == "post" %}{{ page.title | append: " by " | append: site.artist }}{% elsif page.slug == "home" %}{{ site.title }}{% else %}{{ page.title | default: site.title }}{% endif %}{% endcapture %}
+{% assign page_meta_description = page.description | default: site.description | strip_html | strip | truncate: 160 | escape %}
+
+<title>{{ page_seo_title }}</title>
+<meta name="description" content="{{ page_meta_description }}">
+<link rel="canonical" href="{{ canonical_url }}">
+{% if page.layout == "post" %}
+  {% if page.next.url != nil %}
+    <link data-proofer-ignore rel="prev" href="{{ page.next.url | absolute_url }}">
+  {% endif %}
+  {% if page.previous.url != nil %}
+    <link data-proofer-ignore rel="next" href="{{ page.previous.url | absolute_url }}">
+  {% endif %}
+{% endif %}
+<meta property="og:title" content="{{ page_seo_title }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:type" content="website">
+<meta property="og:description" content="{{ page_meta_description }}">
+{% if page.layout == "post" %}
+  {% assign og_image = site.data.images | where: "art_slug", page.slug | where: "public", true | where: "primary", true %}
+  <meta property="og:image" content="{{ site.cloudinary_folder | append: site.cloudinary_og | append: og_image.first.url }}">
+{% endif %}

@@ -1,0 +1,27 @@
+.thumbnail-image, .gallery-image img { cursor: zoom-in; }
+
+a i { text-decoration: none !important; }
+
+#cv .cv-year {
+  display: inline-block;
+  margin-right: 20px;
+  font-variant-numeric: tabular-nums;
+}
+
+#cv ul.year-list { padding-left: 25px; }
+
+#cv ul.year-list > li {
+  padding-left: 34px;
+  text-indent: -29px;
+}
+
+#cv ul.year-range-list { padding-left: 60px; }
+
+#cv ul.year-range-list > li {
+  padding-left: 60px;
+  text-indent: -60px;
+}
+
+#cv .award {
+  background-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, .1));
+}
