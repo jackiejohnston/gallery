@@ -159,3 +159,17 @@
   public: true
   width: 2400
   height: 1200
+- art_slug: honu-reflections
+  url: v1691006776/art/Honu_Reflections_fn3oxj.jpg
+  caption:
+  primary: true
+  public: true
+  width: 2400
+  height: 2400
+- art_slug: kolea
+  url: v1691006765/art/Kolea_v0tomc.jpg
+  caption:
+  primary: true
+  public: true
+  width: 1080
+  height: 1080
