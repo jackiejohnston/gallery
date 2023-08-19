@@ -173,3 +173,24 @@
   public: true
   width: 1080
   height: 1080
+- art_slug: aloha-fish
+  url: v1691006764/art/Aloha_Fish_c0a6n1.jpg
+  caption:
+  primary: true
+  public: true
+  width: 1080
+  height: 1080
+- art_slug: maui-alarm-clock
+  url: v1692402884/art/Maui_Alarm_Clock_16x20-unframed_sotbjx.jpg
+  caption:
+  primary: true
+  public: true
+  width: 2400
+  height: 1866
+- art_slug: maui-alarm-clock
+  url: v1692402883/art/Maui_Alarm_Clock_16x20_qi9wvp.jpg
+  caption:
+  primary: false
+  public: true
+  width: 2400
+  height: 2000
