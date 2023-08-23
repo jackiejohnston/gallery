@@ -101,7 +101,7 @@
   selection-process: juried
   juror-curator: Laura Wambsgans
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
 - slug: 20-lahaina-poster-contest
   year: 2019
@@ -118,7 +118,7 @@
   selection-process: juried
   juror-curator: Anette Power
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried open group exhibit
 - year: 2018
   title: Fantasy Gold Metal Exhibit
@@ -127,7 +127,7 @@
   selection-process: juried
   juror-curator: Dino Mehaffie
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
 - year: 2018
   title: Expressions
@@ -136,25 +136,26 @@
   selection-process: juried
   juror-curator: Joe Cibere
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried open group exhibit
 - year: 2018
   title: Los Angeles Plein Air Festival
   gallery: Farmers & Merchants Bank
   city: Los Angeles
-  state: Calif.
+  state: California
   category: Open group exhibit
   selection-process: judged
   juror-curator: Shana Nys Dambrot
   award: honorable mention in the other/mixed media category
   award-for: Old Plaza Firehouse
-- year: 2018
+- slug: rock-paper-scissors
+  year: 2018
   title: Rock, Paper, Scissors
   gallery: San Fernando Valley Arts & Cultural Center
   selection-process: juried
   juror-curator: Mary Sherwood Brock
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried open group exhibit
 - year: 2017
   title: Glow Gold Metal Exhibit
@@ -163,7 +164,7 @@
   selection-process: juried
   juror-curator: Donna Geist Buch
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
 - year: 2017
   title: Dreams
@@ -172,14 +173,14 @@
   selection-process: juried
   juror-curator: Otto Sturcke
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
 - year: 2017
   title: Muse &amp; Mystique
   description: 'Women&#39;s City Club of Pasadena Exhibit. '
   gallery: Blinn House
   city: Pasadena
-  state: Calif.
+  state: California
   category: Curated invitational group exhibit
 - year: 2017
   title: Color Me Bold
@@ -187,7 +188,7 @@
   selection-process: juried
   juror-curator: Donna Geist Buch
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried open group exhibit
 - year: 2016
   title: Red
@@ -196,7 +197,7 @@
   selection-process: juried
   juror-curator: Margaret Danielak
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
 - year: 2016
   title: Spirits of the Night Gold Medal Exhibit
@@ -205,7 +206,7 @@
   selection-process: juried
   juror-curator: Ellen Brown
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
   award: Merchandise Award
   award-for: Big Top Swinger
@@ -214,14 +215,14 @@
   description: 'Women&#39;s City Club of Pasadena Exhibit. '
   gallery: Blinn House
   city: Pasadena
-  state: Calif.
+  state: California
   category: Curated invitational group exhibit
 - year: 2016
   title: Plein Air at the Fair
   other-artists: other California Art Club members
   gallery: Millard Sheets Art Center
   city: Pomona
-  state: Calif.
+  state: California
   category: Non-curated invitational group exhibit
   award: Audience Favorite award
   award-for: Big Top Swinger
@@ -232,7 +233,7 @@
   selection-process: juried
   juror-curator: Victor Picou
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
   award: Best of Show award
   award-for: Port Angeles
@@ -243,7 +244,7 @@
   selection-process: juried
   juror-curator: Daggi Wallace
   city: Tarzana
-  state: Calif.
+  state: California
   category: Juried group exhibit
 - year: 2015
   title: SeaScapes

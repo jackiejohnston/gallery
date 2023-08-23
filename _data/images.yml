@@ -194,3 +194,10 @@
   public: true
   width: 2400
   height: 2000
+- art_slug: moon-jellies
+  url: v1692817521/art/Moon_Jellies_8x10_rahvpz.jpg
+  caption:
+  primary: true
+  public: true
+  width: 1852
+  height: 2400
