@@ -2,10 +2,11 @@
   <div class="row">
     <div class="col">
       <div class="text-center text-uppercase text-secondary small font-monospace mb-3">
-        {% unless page.url == "/index.html" %}
-          <a href="/" class="btn btn-sm btn-primary me-2 mb-2">Show All</a>
-        {% endunless %}
-        Show only:
+        {% if page.url == "/index.html" %}
+          <button class="btn btn-sm btn-primary me-2 mb-2 disabled text-uppercase">All</button>
+        {% else %}
+          <a href="/" class="btn btn-sm btn-primary me-2 mb-2">All</a>
+        {% endif %}
         {% assign sorted_tags = site.tags | sort %}
         {% for tag in sorted_tags %}
           {% assign tag_url = tag | first | slugify | prepend: "/art/" | append: "/" %}
