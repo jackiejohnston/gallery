@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://www.jackiejohnston.com/art/moon-jellies/</loc>
+<lastmod>2018-02-17T00:00:00-10:00</lastmod>
+</url>
+<url>
 <loc>https://www.jackiejohnston.com/art/canoe-beach/</loc>
 <lastmod>2018-08-23T00:00:00-10:00</lastmod>
 </url>
@@ -107,13 +111,13 @@
 <loc>https://www.jackiejohnston.com/page/2/</loc>
 </url>
 <url>
-<loc>https://www.jackiejohnston.com/art/pastel/</loc>
-</url>
-<url>
 <loc>https://www.jackiejohnston.com/art/block-print/</loc>
 </url>
 <url>
 <loc>https://www.jackiejohnston.com/art/available/</loc>
+</url>
+<url>
+<loc>https://www.jackiejohnston.com/art/pastel/</loc>
 </url>
 <url>
 <loc>https://www.jackiejohnston.com/art/acrylic/</loc>
