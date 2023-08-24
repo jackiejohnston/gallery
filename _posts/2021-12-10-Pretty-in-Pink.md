@@ -3,7 +3,7 @@ layout: post
 title: Pretty in Pink
 slug: pretty-in-pink
 description: This 12 x 12 inch acrylic painting of a Hawaiian stilt was created in 2021.
-info: This is a Hawaiian stilt wading in Kealia Pond on Maui.
+info: This is a Hawaiian stilt wading in Kealia Pond on Maui.<br><br>This piece has been donated to the Maui Hand's fundraiser where 100% of the proceeds will go to one of its Lahaina employee's who lost everything in the fire and other Maui disaster relief efforts.
 tags:
   - acrylic
   - available
