@@ -1,11 +1,12 @@
 <div class="container text-center">
   <div class="row align-items-center">
     {% for art in include.post_collection.posts limit:include.cap %}
+      {% capture lazy %}{% unless forloop.first %}loading="lazy"{% endunless %}{% endcapture %}
       {% for image in site.data.images %}
         {% if image.art_slug == art.slug and image.primary and image.public %}
           <div class="col-sm-6 col-md-3 mb-4">
             <a href="{{ art.url | relative_url }}">
-              <img src="{{ site.cloudinary_folder | append: site.cloudinary_square | append: image.url }}" alt="{{ art.title }}" loading="lazy" class="img-fluid" height="261" width="261">
+              <img src="{{ site.cloudinary_folder | append: site.cloudinary_square | append: image.url }}" alt="{{ art.title }}" {{ lazy }} class="img-fluid" height="261" width="261">
             </a>
           </div>
         {% endif %}
