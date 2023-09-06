@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-autoprefixer", "1.0.2"
   gem "jekyll-sitemap", "1.4.0"
   gem "jekyll-paginate-v2", "3.0.0"
+  gem "jekyll-purgecss", "0.3.0"
 end
 
 group :development, :test do

@@ -1,0 +1,7 @@
+{
+  "name": "jackie-johnston",
+  "version": "1.0.0",
+  "dependencies": {
+    "purgecss": "4.0.2"
+  }
+}
