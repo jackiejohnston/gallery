@@ -8,5 +8,5 @@ module.exports = {
   css: ["./_site/assets/stylesheets/font-awesome_5.15.4_all.min.css", "combination.min.css"],
 
   // Include these classes even when they aren't in the code:
-  safelist: []
+  safelist: ["pswp*"]
 };
