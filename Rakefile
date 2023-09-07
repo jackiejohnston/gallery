@@ -14,3 +14,8 @@ desc "Create production build"
 task :build do
   sh "JEKYLL_ENV=production jekyll build --verbose --trace"
 end
+
+desc "Upload to GitHub Pages"
+task :deploy do
+  sh "git subtree push --prefix _site origin gh-pages"
+end

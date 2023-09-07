@@ -5,8 +5,8 @@ module.exports = {
   content: ["./_site/**/*.html"],
 
   // These are the stylesheets that will be subjected to the purge
-  css: ["./_site/assets/stylesheets/font-awesome_5.15.4_all.min.css", "combination.min.css"],
+  css: ["combination.min.css"],
 
   // Include these classes even when they aren't in the code:
-  safelist: ["pswp*"]
+  safelist: []
 };
