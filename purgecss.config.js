@@ -5,7 +5,7 @@ module.exports = {
   content: ["./_site/**/*.html"],
 
   // These are the stylesheets that will be subjected to the purge
-  css: ["combination.min.css"],
+  css: ["./_site/assets/stylesheets/combination.min.css"],
 
   // Include these classes even when they aren't in the code:
   safelist: []

@@ -26,7 +26,9 @@ exclude: [
   'README.md',
   'node_modules',
   'package.json',
-  'package-lock.json'
+  'package-lock.json',
+  'purgecss.config.js',
+  'Rakefile'
 ]
 cloudinary_folder: https://res.cloudinary.com/jackie-johnston-art/image/upload/
 cloudinary_size: if_w_gt_h/c_scale,w_500/if_else/c_scale,h_500/if_end/f_auto,q_auto,g_face/
