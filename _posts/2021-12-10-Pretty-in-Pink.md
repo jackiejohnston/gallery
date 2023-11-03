@@ -3,7 +3,7 @@ layout: post
 title: Pretty in Pink
 slug: pretty-in-pink
 description: This 12 x 12 inch acrylic painting of a Hawaiian stilt was created in 2021.
-info: This is a Hawaiian stilt wading in Kealia Pond on Maui.<br><br>This piece has been donated to the Maui Hand's fundraiser where 100% of the proceeds will go to one of its Lahaina employees who lost everything in the fire and other Maui disaster relief efforts.
+info: This is a Hawaiian stilt wading in Kealia Pond on Maui.<br><br>This piece was donated to the <a href="https://www.mauihands.com/project/disaster-relief-fundraiser/" target="_blank">Maui Hand's fundraiser</a> where 100% of proceeds goes to their displaced artists and the <a href="https://www.hawaiicommunityfoundation.org/maui-strong" target="_blank">Maui Strong Fund</a> to support disaster relief efforts on Maui.
 tags:
   - acrylic
   - available
@@ -20,7 +20,7 @@ open_edition:
 number_of_artist_proofs:
 available: true
 available_at: Maui Hands Art Gallery, Makawao
-available_url: https://www.mauihands.com/product/pretty-in-pink-aeo-hawaiian-stilt-bird-ooak-original-acrylic-painting-made-in-hawaii/
+available_url: https://www.mauihands.com/product/pretty-in-pink-aeo-hawaiian-stilt-bird-by-jackie-johnston-original-acrylic-painting/
 price_framed: 650
 price_unframed:
 external_url:
