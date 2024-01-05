@@ -1,0 +1,482 @@
+---
+- art_slug: freckles
+  gallery_id:
+  available: false
+  framed: true
+  listed_price: 750
+  sold_price: 750
+  artist_commission: 0
+  consigned_date: 2023
+  sold_date: 2023
+  returned_date:
+  gallery: Hui No'eau Visual Arts Center
+  url: https://malamawaoakua.org/2023-mwa-exhibit/
+  edition_number: 1/10
+- art_slug: standing-tall
+  gallery_id:
+  available: false
+  framed: true
+  listed_price: 499
+  sold_price: 499
+  artist_commission: 0
+  consigned_date: 2021
+  sold_date: 2021
+  returned_date:
+  gallery: Hui No'eau Visual Arts Center
+  url: https://malamawaoakua.org/2021-mwa-exhibit/
+  edition_number: original
+- art_slug: jump-for-joy
+  gallery_id:
+  available: true
+  framed: false
+  listed_price: 350
+  sold_price:
+  artist_commission: 0
+  consigned_date: 2020
+  sold_date:
+  returned_date:
+  gallery: Big Ink
+  url: https://www.bigink.org/product/jump-for-joy/
+  edition_number: AP
+- art_slug: dustup-at-the-makawao-stampede
+  gallery_id:
+  available: true
+  framed: true
+  listed_price: 1799
+  sold_price:
+  artist_commission:
+  consigned_date: 1/3/2024
+  sold_date:
+  returned_date:
+  gallery: Hui No'eau Visual Arts Center
+  url: https://www.huinoeau.com/exhibitions/2024/1/2024-annual-juried-exhibition
+  edition_number: original
+- art_slug: pretty-in-pink
+  gallery_id: JJO01
+  available: true
+  framed: true
+  listed_price: 650
+  sold_price:
+  artist_commission:
+  consigned_date: 12/10/2021
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/pretty-in-pink-aeo-hawaiian-stilt-bird-by-jackie-johnston-original-acrylic-painting/
+  edition_number: original
+- art_slug: the-one-that-gets-away
+  gallery_id: JJO02
+  available: true
+  framed: true
+  listed_price: 750
+  sold_price:
+  artist_commission:
+  consigned_date: 12/10/2021
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/project/jackie-johnston/
+  edition_number: 2/11
+- art_slug: ybor-city-strut
+  gallery_id: JJO03
+  available: false
+  framed: true
+  listed_price: 750
+  sold_price: 750
+  artist_commission: 340.90
+  consigned_date: 12/10/2021
+  sold_date: 4/5/2022
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/ybor-city-strut-florida-rooster-original-linocut-print-made-in-hawaii/
+  edition_number: 7/10
+- art_slug: honu-kapalua-bay
+  gallery_id: JJO04
+  available: false
+  framed: true
+  listed_price: 950
+  sold_price: 950
+  artist_commission: 431.78
+  consigned_date: 4/1/2022
+  sold_date: 6/29/2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/honu-at-kapalua-bay-jjo04/
+  edition_number: 4/6
+- art_slug: concrete-junglefowl
+  gallery_id: JJO05
+  available: false
+  framed: true
+  listed_price: 895
+  sold_price: 850.25
+  artist_commission: 386.44
+  consigned_date: 7/1/2022
+  sold_date: 5/2/2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/concrete-junglefowl-jjo05/
+  edition_number: original
+- art_slug: honu-reflections
+  gallery_id: JJO06
+  available: false
+  framed: true
+  listed_price: 650
+  sold_price: 650
+  artist_commission: 295.43
+  consigned_date: 7/1/2022
+  sold_date: 10/6/2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/honu-reflections-maui-sea-turtle-ooak-original-encaustic-painting-made-in-hawaii/
+  edition_number: encaustic embellished
+- art_slug: aloha-fish
+  gallery_id: JJO07
+  available: false
+  framed: true
+  listed_price: 650
+  sold_price: 650
+  artist_commission: 295.43
+  consigned_date: 7/1/2022
+  sold_date: 8/14/23
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/aloha-fish-humuhumunukunukuapua%ca%bba-reef-triggerfish-hawaii-state-fish-ooak-original-encaustic-painting-made-in-hawaii/
+  edition_number: original
+- art_slug: kolea
+  gallery_id: JJO08
+  available: false
+  framed: true
+  listed_price: 650
+  sold_price: 650
+  artist_commission: 0
+  consigned_date: 7/1/2022
+  sold_date: 2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/kolea-pacific-golden-plover-bird-original-encaustic-painting/
+  edition_number: original
+- art_slug: honu-kapalua-bay
+  gallery_id: JJO09
+  available: false
+  framed: false
+  listed_price: 750
+  sold_price: 675
+  artist_commission: 306.81
+  consigned_date: 8/3/2022
+  sold_date: 2/23/2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/honu-at-kapalua-bay-maui-sea-turtle-original-linocut-print-made-in-hawaii/
+  edition_number: 2/6
+- art_slug: the-one-that-gets-away
+  gallery_id: JJO10
+  available: true
+  framed: false
+  listed_price: 550
+  sold_price:
+  artist_commission:
+  consigned_date: 8/3/2022
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/project/jackie-johnston/
+  edition_number: 6/11
+- art_slug: honu-kapalua-bay
+  gallery_id: JJO11
+  available: true
+  framed: false
+  listed_price: 750
+  sold_price:
+  artist_commission:
+  consigned_date: 8/10/2022
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/product/honu-at-kapalua-bay-maui-sea-turtle-original-linocut-print-made-in-hawaii/
+  edition_number: 5/6
+- art_slug: the-one-that-gets-away
+  gallery_id: JJO12
+  available: true
+  framed: false
+  listed_price: 550
+  sold_price:
+  artist_commission:
+  consigned_date: 8/10/2022
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/project/jackie-johnston/
+  edition_number: 9/11
+- art_slug: fly-like-an-eagle
+  gallery_id: JJO13
+  available: true
+  framed: false
+  listed_price: 490
+  sold_price:
+  artist_commission:
+  consigned_date: 1/21/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/fly-like-an-eagle-spotted-eagle-ray-original-linocut-print-made-in-hawaii/
+  edition_number: 2/8
+- art_slug: kolea-and-sand-castle
+  gallery_id: JJO14
+  available: true
+  framed: false
+  listed_price: 550
+  sold_price:
+  artist_commission:
+  consigned_date: 1/21/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/kolea-sand-castle-pacific-golden-plover-bird-maui-hawaii-original-screen-print-made-in-hawaii/
+  edition_number: 4/6
+- art_slug: maui-alarm-clock
+  gallery_id: JJO15
+  available: false
+  framed: true
+  listed_price: 450
+  sold_price: 450
+  artist_commission: 0
+  consigned_date: 7/18/2023
+  sold_date: 2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/maui-alarm-clock-by-jackie-johnston-hawaii-chickens-rooster-original-pastel-painting/
+  edition_number: original
+- art_slug: honu-kapalua-bay
+  gallery_id: JJO16
+  available: true
+  framed: true
+  listed_price: 950
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/honu-at-kapalua-bay-maui-sea-turtle-original-linocut-print-made-in-hawaii/
+  edition_number: 6/6
+- art_slug: sanderlings
+  gallery_id: JJO17
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/project/jackie-johnston/
+  edition_number: 1/9
+- art_slug: ybor-city-strut
+  gallery_id: JJO18
+  available: true
+  framed: false
+  listed_price: 550
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/ybor-city-strut-florida-rooster-original-linocut-print-made-in-hawaii/
+  edition_number: AP
+- art_slug: moon-jellies
+  gallery_id: JJO19
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/moon-jellies-blue-jellyfish-original-linocut-print-made-in-hawaii/
+  edition_number: 2/15
+- art_slug: waikiki-waa
+  gallery_id: JJO20
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/project/jackie-johnston/
+  edition_number: 1/5
+- art_slug: maluhia
+  gallery_id: JJO21
+  available: true
+  framed: false
+  listed_price: 750
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/maluhia-peace-honu-sea-turtle-maui-hawaii-original-linocut-print-made-in-hawaii/
+  edition_number: 2/10
+- art_slug: honu-reflections
+  gallery_id: JJO22
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/honu-reflections-maui-sea-turtle-ooak-original-encaustic-painting-made-in-hawaii/
+  edition_number: 2/10
+- art_slug: sherbet-sunset
+  gallery_id: JJO23
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/sherbet-sunset-maui-hawaii-beach-palm-trees-original-screen-print-made-in-hawaii/
+  edition_number: 1/8
+- art_slug: waikiki-waa
+  gallery_id: JJO24
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/project/jackie-johnston/
+  edition_number: 2/5
+- art_slug: sanderlings
+  gallery_id: JJO25
+  available: false
+  framed: false
+  listed_price: 450
+  sold_price: 450
+  artist_commission: 204.53
+  consigned_date: 7/18/2023
+  sold_date: 8/3/23
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/project/jackie-johnston/
+  edition_number: 4/9
+- art_slug: kolea-and-sand-castle
+  gallery_id: JJO26
+  available: true
+  framed: false
+  listed_price: 550
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/product/kolea-sand-castle-pacific-golden-plover-bird-maui-hawaii-original-screen-print-made-in-hawaii/
+  edition_number: 5/6
+- art_slug: moon-jellies
+  gallery_id: JJO27
+  available: false
+  framed: false
+  listed_price: 450
+  sold_price: 450
+  artist_commission: 204.53
+  consigned_date: 7/18/2023
+  sold_date: 8/3/23
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/product/moon-jellies-blue-jellyfish-original-linocut-print-made-in-hawaii/
+  edition_number: 5/15
+- art_slug: fly-like-an-eagle
+  gallery_id: JJO28
+  available: false
+  framed: false
+  listed_price: 490
+  sold_price: 490
+  artist_commission: 222.71
+  consigned_date: 7/18/2023
+  sold_date: 8/3/23
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/product/fly-like-an-eagle-spotted-eagle-ray-original-linocut-print-made-in-hawaii/
+  edition_number: 3/8
+- art_slug: maluhia
+  gallery_id: JJO29
+  available: true
+  framed: false
+  listed_price: 750
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/product/maluhia-peace-honu-sea-turtle-maui-hawaii-original-linocut-print-made-in-hawaii/
+  edition_number: 3/10
+- art_slug: sherbet-sunset
+  gallery_id: JJO30
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/product/sherbet-sunset-maui-hawaii-beach-palm-trees-original-screen-print-made-in-hawaii/
+  edition_number: 2/8
+- art_slug: honu-reflections
+  gallery_id: JJO31
+  available: true
+  framed: false
+  listed_price: 450
+  sold_price:
+  artist_commission:
+  consigned_date: 7/18/2023
+  sold_date:
+  returned_date:
+  gallery: Maui Hands Art Gallery, Paia
+  url: https://www.mauihands.com/product/honu-reflections-maui-sea-turtle-ooak-original-encaustic-painting-made-in-hawaii/
+  edition_number: 1/10
+- art_slug: shave-ice-at-night
+  gallery_id: JJO32
+  available: false
+  framed: true
+  listed_price: 965
+  sold_price: 965
+  artist_commission: 0
+  consigned_date: 8/23/2023
+  sold_date: 2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/shave-ice-at-night-by-jackie-johnston-original-acrylic-painting/
+  edition_number: original
+- art_slug: lahaina-town-mauka-to-makai
+  gallery_id: JJO33
+  available: false
+  framed: true
+  listed_price: 1595
+  sold_price: 1595
+  artist_commission: 0
+  consigned_date: 8/23/2023
+  sold_date: 2023
+  returned_date:
+  gallery: Maui Hands Art Gallery, Makawao
+  url: https://www.mauihands.com/product/lahaina-town-mauka-to-makai-by-jackie-johnston-original-acrylic-painting/
+  edition_number: original

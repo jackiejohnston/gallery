@@ -100,34 +100,21 @@ layout: default
             <td><time itemprop="dateCreated" datetime="{{ page.year }}">{{ page.year }}</time></td>
           </tr>
           {% if page.available %}
-            {% if page.price_framed or page.price_unframed %}
-              <tr>
-                <th scope="row" class="text-uppercase text-secondary small font-monospace">
-                  Price:
-                </th>
-                <td itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                  {% if page.price_framed %}
-                    <div><span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="{{ page.price_framed }}">{{ page.price_framed }}</span> framed</div>
-                  {% endif %}
-                  {% if page.price_unframed %}
-                    <div><span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="{{ page.price_unframed }}">{{ page.price_unframed }}</span>  unframed</div>
-                  {% endif %}
-                </td>
-              </tr>
-            {% endif %}
-            {% if page.available_url and page.available_at %}
-              <tr>
-                <th scope="row" class="text-uppercase text-secondary small font-monospace text-nowrap">
-                  Buy at:
-                </th>
-                <td>
-                  <a itemprop="url" href="{{ page.available_url }}" target="_blank">{{ page.available_at }}</a>
-                  <div>
-                    <a href="{{ page.available_url }}" class="btn btn-sm btn-primary text-uppercase font-monospace mt-2" target="_blank">Buy Now</a>
+            <tr>
+              <th scope="row" class="text-uppercase text-secondary small font-monospace text-nowrap">
+                Buy at:
+              </th>
+              <td>
+                {% assign consignments = site.data.consignments | where: "art_slug", page.slug | where: "available", true %}
+                {% for consignment in consignments %}
+                  <a itemprop="url" href="{{ consignment.url }}" target="_blank">{{ consignment.gallery }}</a>
+                  <div class="mt-2">
+                    <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="{{ consignment.listed_price }}">{{ consignment.listed_price }}</span> {% if consignment.framed %}framed{% else %}unframed{% endif %}
+                    <a href="{{ consignment.url }}" class="btn btn-sm btn-primary text-uppercase font-monospace ms-2" target="_blank">Buy Now</a>
                   </div>
-                </td>
-              </tr>
-            {% endif %}
+                {% endfor %}
+              </td>
+            </tr>
           {% endif %}
           {% if page.location %}
             <tr>
