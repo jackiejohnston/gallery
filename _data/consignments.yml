@@ -63,7 +63,7 @@
   artist_commission:
   consigned_date: 1/3/2024
   sold_date:
-  returned_date:
+  returned_date: 2/17/2024
   gallery: Hui No'eau Visual Arts Center
   url: https://www.huinoeau.com/exhibitions/2024/1/2024-annual-juried-exhibition
   edition_number: original
@@ -296,9 +296,9 @@
   framed: false
   listed_price: 550
   sold_price:
-  artist_commission:
+  artist_commission: 250
   consigned_date: 7/18/2023
-  sold_date:
+  sold_date: 1/9/24
   returned_date:
   gallery: Maui Hands Art Gallery, Makawao
   url: https://www.mauihands.com/product/ybor-city-strut-florida-rooster-original-linocut-print-made-in-hawaii/
